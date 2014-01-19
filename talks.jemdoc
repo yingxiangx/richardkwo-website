@@ -1,0 +1,32 @@
+# jemdoc: menu{MENU}{talks.html}
+# jemdoc: analytics{UA-36013347-1}
+= My Talks
+
+== Academic
+
+- A Statistical Analysis of Diverging Moments \[[talks/ThesisDefPresentation_Guo.pdf Slides]\]\n
+/My Bachelor's thesis defense, UESTC, Chengdu, June 2013/
+
+- Memory in bursty systems  \[[talks/BurstMemSlides.pdf Slides]\]\n
+/Winter School on Networks and Complexity, UESTC, Chengdu, Jan 2013/
+
+- A solution to inverse Ising problem via pseudolikelihood maximization \[[talks/InverseIsingSlides.pdf Slides]\]\n
+/CCAST Summer School on Statistical Physics and Complex Systems, Institute of Theoretical Physics, Beijing, July 2012/
+
+- Predicting link directions via a recursive subgraph-based ranking \[[talks/DirectionPaperSlides.pdf Slides]\]\n
+/Group meeting, Web Sciences Center, UESTC, Chengdu, June 2012/
+
+- Review of Ziegler's "Towards Decentralized Recommender Systems" \[[talks/ReviewZiegler.pdf Slides]\]\n
+/Group meeting, Web Sciences Center, UESTC, Chengdu, Feb 2012/
+
+== Teaching
+- A Brief Review of Python \[[talks/python-review.pdf Slides]\] \n
+/CPS 270: Introduction to Artificial Intelligence, Duke University, Spring 2014/
+
+== Other Stuff
+
+- An introductory lecture on mathematical modeling \[[talks/MMIntro.pdf Slides]\]\n
+/Yingcai Experimental School, UESTC, Chengdu, Mar 2013/
+
+- Scientific workaholic \[[talks/SigmaIdeasSlides.pdf Slides]\]\n
+/Sigma Ideas (school's saloon), UESTC, Chengdu, Dec 2011/

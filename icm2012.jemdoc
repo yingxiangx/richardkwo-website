@@ -1,0 +1,111 @@
+# jemdoc: menu{MENU}{project.html}
+# jemdoc: analytics{UA-36013347-1}
+# jemdoc: addpackage{amsmath}
+# jemdoc: addpackage{amssymb}
+# jemdoc: addpackage{bm}
+# jemdoc: addpackage{amsfonts}
+= Finding Conspirators in the Network: \nMachine Learning with Resource-allocation Dynamics
+
+== Problem clarification
+~~~
+{}{img_left}{projects/icmnetwork.png}{The communication network}{300}{}{}
+A conspiracy network is embedded into a network of communication among
+employees of a company, with its every edge representing a message sent from one
+node to the other and categorized by topics. Given a few known criminals,
+non-criminals and suspicious topics, we  seek to estimate the
+probability of criminal involvement for those not identified individuals, and to determine
+the leader of conspirators. 
+
+See also:
+- [http://www.comap.com/undergraduate/contests/mcm/contests/2012/problems/ Official description of the problem (Problem C) and data]
+- [http://www.comap.com/undergraduate/contests/mcm/contests/2012/results/ Results of MCM\/ICM 2012]
+~~~
+
+== Assumptions
+We made following assumptions for solving the problem:
+- Two classes, conspirators and non-conspirators, are linearly
+separable in the space spanned by local features of a node, which is necessary to
+logistic regression. 
+- A conspirator is reluctant to mention topics related to crime
+when talking with an outsider. 
+- Conspirators tend not to talk about irrelevant
+topics frequently with each other.  
+- The leader of conspiracy tries to minimize risk
+by restricting direct contacts. 
+- A non-conspirator has no idea of who are
+conspirators, thus treating conspirator and non-conspirators equally.
+
+== Logistic regression model
+We consider a training set of size $m$: $\{ (x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),\cdots,(x^{(m)},y^{(m)})\}$, where
+$x^{(i)}$ is an n-dimensional feature vector, and $y^{(i)}$ indicates the classification of the agent, i.e. $y^{(i)}=1$ for conspirators and $y^{(i)}=0$ for non-conspirators. All the nodes in the training set are drawn from the known conspirators and non-conspirators.
+
+As a descendant of generalized linear model for Bernoulli distribution, logistic
+regression tries to estimate the probability of being a conspirators as
+\(
+	P(y=1|x;\theta)=h_{\theta}(x)=\frac{1}{1+e^{-\theta^{T}x}},
+\)
+where $\theta \in \mathbb{R}^n$ is the parameter vector.
+
+== Feature selection
+
+=== Topological features
+~~~
+{}{img_left}{projects/icmposs.png}{}{300}{}{}
+- Centrality
+-- Degree centrality
+-- Betweenness centrality
+-- Closeness centrality
+- Number of known neighboring conspirators
+- Number of current non-suspicious messages from the known conspirator
+~~~
+
+=== Semantic features and resource-allocation dynamics
+~~~
+{}{img_left}{projects/icmdiffusion.gif}{}{450}{}{}
+The bipartite network is modeled by $G = (D,T,E)$. $E$ is an edge set, indicating the relationship between key word set $D$ of expert dictionary and topic set $T$ , where $D = \{d_{1},d_{2}...d_{n}\}$ and $T = \{t_{1},t_{2}...t_{m}\}$. Then, we arrange all the topics with 0 resource except each known conspiratorial topic with one unit of resource and commence with the first allocation from set $T$ to set $D$:
+\(
+f(t_{l}) = \sum_{i=1}^{n}\frac{a_{il}f(d_{i})}{D(d_{i})}.
+\)
+
+Equation above expresses the calculation of the resource held by $t(l)$ after the first step : $f(t_{l})$. $D(d_{i})$ indicates the degree of the node $d_{i}$ and $a_{il}$ is defined as follows:
+\(
+a_{il} = \left\{\begin{matrix}
+1, & d_{i}t_{l} \in E \\
+0, & \text{otherwise}.
+\end{matrix}\right.
+\)
+Intuitive explanation of step 1 is to arrange the resource averagely by degree of $t_{i}$ from $T$ to $D$ if  $t_{i}$ owns resource.  The second step is to reflect the resource flow back to $T$ from $D$ obeying the same rule. So the resource finally locates on $t_{i}$  satisfies :
+\(
+f^{'}(t_{i}) = \sum_{l=1}^{m}\frac{a_{il}f(d_{l})}{D(d_{l})} = \sum_{l=1}^{m}\frac{a_{il}}{D(d_{l})}\sum_{j=1}^{n}\frac{a_{ji}f(t_{j})}{D(t_{j})}.
+\)
+After this two-fold method, the amount of resource held by every element in $T$ could be seen as a score of similarity. The rank of all topics according to such score represents the degree of their similarity to the information from dictionary,i.e. the higher this score is, the topic is more likely to be a newly found conspiratorial topic.
+
+References: 
+- [http://www.pnas.org/content/107/10/4511.full T. Zhou, et al. , /Proceedings of the National Academy of Sciences/ 107, 4511 (2010).]
+- [http://pre.aps.org/abstract/PRE/v76/i4/e046115 T. Zhou, J. Ren, M. Medo, Y. C. Zhang, /Physical Review E/  76, 046115+ (2007).]
+~~~
+
+== Evaluation
+
+=== Sensitivity analysis
+~~~
+{}{img_left}{projects/icmkendall.png}{}{400}{}{}
+Considering the usual incompleteness, imprecision and even inconsistency with criminal social networks, the method for inferring criminality or conspiracy should be robust enough to cope with minor alternations of the network. Otherwise, small flaws or incompleteness of the network would possibly lead to mistaken accusations or connivance of criminals. Therefore, a sensitivity analysis is performed for our approach.
+
+If we assume those known conspirators and non-conspirators are independently wrongly classified with certain probability, then the expected value of $\tau$ between our computed priority list and the real priority list would vary with that probability. The left figure depicts the expected Kendall's tau versus the misclassification probability of conspirator set and non-conspiracy set separately.
+~~~
+
+=== Empirical support
+~~~
+{}{img_left}{projects/icmsupport.png}{}{450}{}{}
+Our inference that Yao is the leader is empirically supported. Empirical analysis of criminal networks has found that a leader of a criminal organization tends to carefully
+balancing his or her degree centrality and betweenness centrality. It has been proposed that the leader usually maintains a high betweenness centrality but a relatively low degree centrality, for enhancing efficiency and meanwhile ensuring safety.
+
+References: 
+- [http://ccj.sagepub.com/content/26/4/382.short C. Morselli, /Journal of Contemporary Criminal Justice/ 26, 382 (2010).]
+~~~
+
+== Complete solution
+Please refer to our paper:\n
+*Fangjian Guo*, Jiang Su, and Jian Gao. [papers/ICM2012Paper.pdf Finding conspirators in the network via machine learning]. /The UMAP Journal, 33(3), 2012./\n
+

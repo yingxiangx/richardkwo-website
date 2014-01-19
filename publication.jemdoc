@@ -1,0 +1,12 @@
+# jemdoc: menu{MENU}{publication.html}
+# jemdoc: analytics{UA-36013347-1}
+= Publications
+
+. *Fangjian Guo*, Jiang Su, and Jian Gao. [papers/ICM2012Paper.pdf Finding conspirators in the network via machine learning].\n 
+/The UMAP Journal/, 33(3), 2012.\n
+(*Outstanding Winner* paper for [http://www.comap.com/undergraduate/contests/mcm/contests/2012/results/ Interdisciplinary Contest in Modeling (MCM/ICM) 2012])
+. *Fangjian Guo*, Zimo Yang, and Tao Zhou. [http://dx.doi.org/10.1016/j.physa.2013.03.025 Predicting link directions via a recursive subgraph-based ranking].\n
+/Physica A: Statistical Mechanics and its Applications/, Volume 392, Issue 16, 15 August 2013.
+. *Fangjian Guo* and Tao Zhou. [papers/PowerMemPaper.pdf The relation between memory and power-law exponent] (/in progress/).
+. *Fangjian Guo*. A statistical analysis of diverging moments. \[[talks/ThesisDefPresentation_Guo.pdf Slides]\]\n
+/Bachelor's Thesis/, University of Electronic Science and Technology of China, Chengdu, China, 2013.

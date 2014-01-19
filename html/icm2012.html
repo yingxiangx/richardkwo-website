@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Finding Conspirators in the Network: Machine Learning with Resource-allocation Dynamics</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-36013347-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Info</div>
+<div class="menu-item"><a href="index.html">Main</a></div>
+<div class="menu-item"><a href="CV.html">Curriculum&nbsp;Vitae</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="project.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="talks.html">Talks/Slides</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Finding Conspirators in the Network: <br />Machine Learning with Resource-allocation Dynamics</h1>
+</div>
+<h2>Problem clarification</h2>
+<table class="imgtable"><tr><td>
+<img src="projects/icmnetwork.png" alt="The communication network" width="300px" />&nbsp;</td>
+<td align="left"><p>A conspiracy network is embedded into a network of communication among
+employees of a company, with its every edge representing a message sent from one
+node to the other and categorized by topics. Given a few known criminals,
+non-criminals and suspicious topics, we  seek to estimate the
+probability of criminal involvement for those not identified individuals, and to determine
+the leader of conspirators. </p>
+<p>See also:</p>
+<ul>
+<li><p><a href="http://www.comap.com/undergraduate/contests/mcm/contests/2012/problems/">Official description of the problem (Problem C) and data</a></p>
+</li>
+<li><p><a href="http://www.comap.com/undergraduate/contests/mcm/contests/2012/results/">Results of MCM/ICM 2012</a></p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Assumptions</h2>
+<p>We made following assumptions for solving the problem:</p>
+<ul>
+<li><p>Two classes, conspirators and non-conspirators, are linearly
+separable in the space spanned by local features of a node, which is necessary to
+logistic regression. </p>
+</li>
+<li><p>A conspirator is reluctant to mention topics related to crime
+when talking with an outsider. </p>
+</li>
+<li><p>Conspirators tend not to talk about irrelevant
+topics frequently with each other.  </p>
+</li>
+<li><p>The leader of conspiracy tries to minimize risk
+by restricting direct contacts. </p>
+</li>
+<li><p>A non-conspirator has no idea of who are
+conspirators, thus treating conspirator and non-conspirators equally.</p>
+</li>
+</ul>
+<h2>Logistic regression model</h2>
+<p>We consider a training set of size <img class="eq" src="eqs/13952041964-130.png" alt="m" style="vertical-align: -1px" />: <img class="eq" src="eqs/8848840170561502900-130.png" alt="{ (x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),cdots,(x^{(m)},y^{(m)})}" style="vertical-align: -5px" />, where
+<img class="eq" src="eqs/2852875442480622015-130.png" alt="x^{(i)}" style="vertical-align: -1px" /> is an n-dimensional feature vector, and <img class="eq" src="eqs/8004940747817752488-130.png" alt="y^{(i)}" style="vertical-align: -4px" /> indicates the classification of the agent, i.e. <img class="eq" src="eqs/4383795024210628328-130.png" alt="y^{(i)}=1" style="vertical-align: -4px" /> for conspirators and <img class="eq" src="eqs/4383795024210628329-130.png" alt="y^{(i)}=0" style="vertical-align: -4px" /> for non-conspirators. All the nodes in the training set are drawn from the known conspirators and non-conspirators.</p>
+<p>As a descendant of generalized linear model for Bernoulli distribution, logistic
+regression tries to estimate the probability of being a conspirators as</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/7465270280643916999-130.png" alt=" 	P(y=1|x;theta)=h_{theta}(x)=frac{1}{1+e^{-theta^{T}x}}, " />
+<br /></div><p>where <img class="eq" src="eqs/2555324846165943722-130.png" alt="theta in mathbb{R}^n" style="vertical-align: -1px" /> is the parameter vector.</p>
+<h2>Feature selection</h2>
+<h3>Topological features</h3>
+<table class="imgtable"><tr><td>
+<img src="projects/icmposs.png" alt="" width="300px" />&nbsp;</td>
+<td align="left"><ul>
+<li><p>Centrality</p>
+<ul>
+<li><p>Degree centrality</p>
+</li>
+<li><p>Betweenness centrality</p>
+</li>
+<li><p>Closeness centrality</p>
+</li></ul>
+</li>
+<li><p>Number of known neighboring conspirators</p>
+</li>
+<li><p>Number of current non-suspicious messages from the known conspirator</p>
+</li>
+</ul>
+</td></tr></table>
+<h3>Semantic features and resource-allocation dynamics</h3>
+<table class="imgtable"><tr><td>
+<img src="projects/icmdiffusion.gif" alt="" width="450px" />&nbsp;</td>
+<td align="left"><p>The bipartite network is modeled by <img class="eq" src="eqs/2992014567454040461-130.png" alt="G = (D,T,E)" style="vertical-align: -5px" />. <img class="eq" src="eqs/8832026564-130.png" alt="E" style="vertical-align: -0px" /> is an edge set, indicating the relationship between key word set <img class="eq" src="eqs/8704026181-130.png" alt="D" style="vertical-align: -0px" /> of expert dictionary and topic set <img class="eq" src="eqs/10752032341-130.png" alt="T" style="vertical-align: -0px" /> , where <img class="eq" src="eqs/816219370613521680-130.png" alt="D = {d_{1},d_{2}...d_{n}}" style="vertical-align: -5px" /> and <img class="eq" src="eqs/5543241725860195219-130.png" alt="T = {t_{1},t_{2}...t_{m}}" style="vertical-align: -5px" />. Then, we arrange all the topics with 0 resource except each known conspiratorial topic with one unit of resource and commence with the first allocation from set <img class="eq" src="eqs/10752032341-130.png" alt="T" style="vertical-align: -0px" /> to set <img class="eq" src="eqs/8704026181-130.png" alt="D" style="vertical-align: -0px" />:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/1652085370347371416-130.png" alt=" f(t_{l}) = sum_{i=1}^{n}frac{a_{il}f(d_{i})}{D(d_{i})}. " />
+<br /></div><p>Equation above expresses the calculation of the resource held by <img class="eq" src="eqs/2314117222495391421-130.png" alt="t(l)" style="vertical-align: -5px" /> after the first step : <img class="eq" src="eqs/8290065053562585186-130.png" alt="f(t_{l})" style="vertical-align: -5px" />. <img class="eq" src="eqs/2191811180152079901-130.png" alt="D(d_{i})" style="vertical-align: -5px" /> indicates the degree of the node <img class="eq" src="eqs/5628104674003444907-130.png" alt="d_{i}" style="vertical-align: -4px" /> and <img class="eq" src="eqs/3266684170507652379-130.png" alt="a_{il}" style="vertical-align: -4px" /> is defined as follows:</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/4041284064205613887-130.png" alt=" a_{il} = left{begin{matrix} 1, &amp; d_{i}t_{l} in E  0, &amp; text{otherwise}. end{matrix}right. " />
+<br /></div><p>Intuitive explanation of step 1 is to arrange the resource averagely by degree of <img class="eq" src="eqs/3752987291241194299-130.png" alt="t_{i}" style="vertical-align: -4px" /> from <img class="eq" src="eqs/10752032341-130.png" alt="T" style="vertical-align: -0px" /> to <img class="eq" src="eqs/8704026181-130.png" alt="D" style="vertical-align: -0px" /> if  <img class="eq" src="eqs/3752987291241194299-130.png" alt="t_{i}" style="vertical-align: -4px" /> owns resource.  The second step is to reflect the resource flow back to <img class="eq" src="eqs/10752032341-130.png" alt="T" style="vertical-align: -0px" /> from <img class="eq" src="eqs/8704026181-130.png" alt="D" style="vertical-align: -0px" /> obeying the same rule. So the resource finally locates on <img class="eq" src="eqs/3752987291241194299-130.png" alt="t_{i}" style="vertical-align: -4px" />  satisfies :</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/5795500624503393007-130.png" alt=" f^{'}(t_{i}) = sum_{l=1}^{m}frac{a_{il}f(d_{l})}{D(d_{l})} = sum_{l=1}^{m}frac{a_{il}}{D(d_{l})}sum_{j=1}^{n}frac{a_{ji}f(t_{j})}{D(t_{j})}. " />
+<br /></div><p>After this two-fold method, the amount of resource held by every element in <img class="eq" src="eqs/10752032341-130.png" alt="T" style="vertical-align: -0px" /> could be seen as a score of similarity. The rank of all topics according to such score represents the degree of their similarity to the information from dictionary,i.e. the higher this score is, the topic is more likely to be a newly found conspiratorial topic.</p>
+<p>References: </p>
+<ul>
+<li><p><a href="http://www.pnas.org/content/107/10/4511.full">T. Zhou, et al. , <i>Proceedings of the National Academy of Sciences</i> 107, 4511 (2010).</a></p>
+</li>
+<li><p><a href="http://pre.aps.org/abstract/PRE/v76/i4/e046115">T. Zhou, J. Ren, M. Medo, Y. C. Zhang, <i>Physical Review E</i>  76, 046115+ (2007).</a></p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Evaluation</h2>
+<h3>Sensitivity analysis</h3>
+<table class="imgtable"><tr><td>
+<img src="projects/icmkendall.png" alt="" width="400px" />&nbsp;</td>
+<td align="left"><p>Considering the usual incompleteness, imprecision and even inconsistency with criminal social networks, the method for inferring criminality or conspiracy should be robust enough to cope with minor alternations of the network. Otherwise, small flaws or incompleteness of the network would possibly lead to mistaken accusations or connivance of criminals. Therefore, a sensitivity analysis is performed for our approach.</p>
+<p>If we assume those known conspirators and non-conspirators are independently wrongly classified with certain probability, then the expected value of <img class="eq" src="eqs/5161649540742415246-130.png" alt="tau" style="vertical-align: -1px" /> between our computed priority list and the real priority list would vary with that probability. The left figure depicts the expected Kendall's tau versus the misclassification probability of conspirator set and non-conspiracy set separately.</p>
+</td></tr></table>
+<h3>Empirical support</h3>
+<table class="imgtable"><tr><td>
+<img src="projects/icmsupport.png" alt="" width="450px" />&nbsp;</td>
+<td align="left"><p>Our inference that Yao is the leader is empirically supported. Empirical analysis of criminal networks has found that a leader of a criminal organization tends to carefully
+balancing his or her degree centrality and betweenness centrality. It has been proposed that the leader usually maintains a high betweenness centrality but a relatively low degree centrality, for enhancing efficiency and meanwhile ensuring safety.</p>
+<p>References: </p>
+<ul>
+<li><p><a href="http://ccj.sagepub.com/content/26/4/382.short">C. Morselli, <i>Journal of Contemporary Criminal Justice</i> 26, 382 (2010).</a></p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Complete solution</h2>
+<p>Please refer to our paper:<br />
+<b>Fangjian Guo</b>, Jiang Su, and Jian Gao. <a href="papers/ICM2012Paper.pdf">Finding conspirators in the network via machine learning</a>. <i>The UMAP Journal, 33(3), 2012.</i><br /></p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2013-11-20 21:22:09 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script type="text/javascript">

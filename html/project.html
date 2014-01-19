@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Projects</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-36013347-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Info</div>
+<div class="menu-item"><a href="index.html">Main</a></div>
+<div class="menu-item"><a href="CV.html">Curriculum&nbsp;Vitae</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="project.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="talks.html">Talks/Slides</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Projects</h1>
+</div>
+<h2><a href="powermemproject.html">Power-law Constrains Memory?</a></h2>
+<p><i>In collaboration with Prof. Tao Zhou</i></p>
+<table class="imgtable"><tr><td>
+<img src="projects/powerlaw-normal-uni.png" alt="Power-law, normal and uniform" width="440px" />&nbsp;</td>
+<td align="left"><p>For a time series <img class="eq" src="eqs/2690144396890465895-130.png" alt="{ T_1,T_2,cdots,T_n }" style="vertical-align: -5px" />, 
+<b>memory</b> is defined as the first-order autocorrelation of the sequence [<a href="http://iopscience.iop.org/0295-5075/81/4/48002">Goh and Barabási 2008</a>], i.e.</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/4654223287388849747-130.png" alt=" M = frac{1}{n-1} sum_{i=1}^{n-1} frac{(T_i -m_1)(T_{i+1} - m_2)}{sigma_1 sigma_2}, " />
+<br /></div><p>for describing the short-range temporal correlation of activities.</p>
+<p><b>Power-law distribution</b> is ubiquitous in data from traffic, social networks and other human activities. Specifically, most of the inter-event time series from such real systems are found to be power-law distributed and meanwhile positively autocorrelated <b>(positive memory)</b>. </p>
+<p>In this study, we analyze the hidden relation between memory and power-law distribution. We want to know whether such a positive bias in memory is due to the constraints imposed by the power-law marginal.</p>
+<p>Given a sequence, its memory can be tuned by rearranging the order of the elements, 
+while preserving their values. We recently found, both theoretically and experimentally, 
+for such a family of random series, 
+<b>power-law imposes a non-trivial constraint on the possible memory of the sequence</b>, 
+which differs markedly from Gaussian and uniform distributions.</p>
+</td></tr></table>
+<p>Furthermore, we are studying:</p>
+<ul>
+<li><p>how power-law marginal constrains the memory of sequence</p>
+</li>
+<li><p>analytical expressions for the bounds on memory as a function of scaling exponent</p>
+</li>
+<li><p>how to generate random power-law sequence with specified memory (e.g. via Monte Carlo methods)</p>
+</li>
+<li><p>how to analyze the asymptotic behavior of diverging statistics with equiprobable-slice approximations</p>
+</li>
+<li><p>a better measure of short-range temporal correlations with no distribution-specific bias</p>
+</li>
+</ul>
+<p><b>Further information</b>:&nbsp;&nbsp;<a href="powermemproject.html">[Details in html]</a></p>
+<p><b>Publication</b>:</p>
+<ul>
+<li><p><b>Fangjian Guo</b> and Tao Zhou. <a href="papers/PowerMemPaper.pdf">The relation between memory and power-law exponent</a> (<i>in progress</i>).</p>
+</li>
+</ul>
+<h2><a href="icm2012.html">Finding Conspirators in the Network: Machine Learning with Resource-allocation Dynamics</a></h2>
+<p><i><b>Outstanding Winner</b> solution for MCM/ICM (Mathematical/Interdisciplinary Contest for Modeling) 2012</i><br />
+<i>In collaboration with Jiang Su and Jian Gao</i></p>
+<table class="imgtable"><tr><td>
+<img src="projects/icmnetwork.png" alt="The communication network" width="400px" />&nbsp;</td>
+<td align="left"><p>A network of communication is embedded into the social relations among
+employees in a company, with every edge representing a message sent from one
+node to another and categorized by topics. Given a few known criminals,
+non-criminals and suspicious topics, then how to estimate the
+probability of criminal involvement for those not identified? And, furthermore, how to determine
+the leader of conspirators?</p>
+<p>We proposed a solution in the framework of machine learning, with carefully selected
+features including both topological quantities and semantic similarity measures obtained from 
+&ldquo;resource-allocation&rdquo; dynamics. For those identified as most probable to be involved in crime, a sensitivity analysis is performed to test the robustness of our method under minor noise. We also used a revised ranking algorithm to find out the leader of the criminal group, which is supported by empirical results from criminology. </p>
+<p>Featured methods/keywords in our solution:</p>
+<ul>
+<li><p>Logistic Regression</p>
+</li>
+<li><p>Semantic Bipartite Graph</p>
+</li>
+<li><p>Resource-allocation Dynamics</p>
+</li>
+<li><p>Revised LeaderRank</p>
+</li>
+<li><p>Kendall's Tau</p>
+</li>
+</ul>
+<p><b>Further information</b>:&nbsp;&nbsp;<a href="icm2012.html">[Details in html]</a></p>
+<p><b>Publication</b>:</p>
+<ul>
+<li><p><b>Fangjian Guo</b>, Jiang Su, and Jian Gao. <a href="papers/ICM2012Paper.pdf">Finding conspirators in the network via machine learning.</a> <i>The UMAP Journal, 33(3), 2012.</i> <b>(Outstanding winner for MCM/ICM 2012)</b></p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Inverse Ising Problem via Pseudolikelihood Maximization</h2>
+<p><i>Project at 2012 CCAST Summer School on Statistical Physics and Complex Systems</i><br />
+<i>Advised by <a href="http://power.itp.ac.cn/~zhouhj/index.html">Prof. Haijun Zhou</a> (Institute of Theoretical Physics, Chinese Academy of Sciences)</i></p>
+<table class="imgtable"><tr><td>
+<a href="projects/spinmat.jpg"><img src="projects/estJ.jpg" alt="Interaction coefficients matrix" width="440px" /></a>&nbsp;</td>
+<td align="left"><p>In Ising model, the Hamiltonian is the sum of contributions from interacting spins and the states are 
+distributed in the Boltzmann form, i.e.</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/2783224830981112768-130.png" alt=" P(bm{sigma}) = frac{1}{Z} exp(-frac{1}{kT} sum_{i&lt;j} J_{ij} sigma_i sigma_j) quad text{(assuming zero external field)}. " />
+<br /></div><p>The Inverse Ising problem is formulated as: given some observations of states <img class="eq" src="eqs/5881500552770242507-130.png" alt="bm{sigma}^{(1)}, bm{sigma}^{(2)}, cdots, bm{sigma}^{(M)}" style="vertical-align: -4px" /> from the ensemble, then how to recover the interaction coefficients <img class="eq" src="eqs/4265013382817103232-130.png" alt="J_{ij}" style="vertical-align: -6px" />?</p>
+<p>A straightforward MLE (Maximum Likelihood Estimation) is not feasible due to the difficulty for 
+computing the partition function <img class="eq" src="eqs/2436612714326592614-130.png" alt="Z = sum_{bm{sigma}} {exp{(-frac{1}{kT} sum_{i&lt;j} J_{ij} sigma_i sigma_j)}}" style="vertical-align: -9px" />, which 
+requires an iteration over all possible states (<img class="eq" src="eqs/59546022197771312-130.png" alt="O(2^n)" style="vertical-align: -5px" />).</p>
+<p>However, an approach proposed by [<a href="http://prl.aps.org/abstract/PRL/v108/i9/e090201">Aurell and Ekeberg 2012</a>] circumvents this problem by introducing pseudolikelihood, which is the conditional probability of one spin taking +1 given all the others, i.e.</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/9093731852918095126-130.png" alt=" P(sigma_r = 1 vert bm{sigma}_{/r}) = frac{P(sigma_r=1, bm{sigma}_{/r})}{P(sigma_r=1, bm{sigma}_{/r})+P(sigma_r=-1, bm{sigma}_{/r})}, " />
+<br /></div><p>which cancels <img class="eq" src="eqs/11520034651-130.png" alt="Z" style="vertical-align: -0px" />, involving the neighbors of spin <img class="eq" src="eqs/14592043891-130.png" alt="r" style="vertical-align: -1px" /> only.</p>
+<p>What I did:</p>
+<ul>
+<li><p>Implemented the algorithm of pseudolikelihood maximization.</p>
+</li>
+<li><p>Analyzed the performance of the algorithm by feeding samples from Monte Carlo simulations with different temperatures and sizes.</p>
+</li>
+<li><p>Found that the reconstruction error goes up as <img class="eq" src="eqs/642719184191354355-130.png" alt="propto T^2" style="vertical-align: -1px" /> when <img class="eq" src="eqs/2354942681918301196-130.png" alt="T&gt;1" style="vertical-align: -1px" />.</p>
+</li>
+<li><p>Made a <a href="talks/InverseIsingSlides.pdf">presentation</a>.</p>
+</li>
+</ul>
+</td></tr></table>
+<h2>Predicting link directions via a recursive subgraph-based ranking</h2>
+<p><i>In collaboration with Prof. Tao Zhou (advisor) and Zimo Yang</i></p>
+<table class="imgtable"><tr><td>
+<img src="projects/rankingProject.png" alt="Power-law, normal and uniform" width="440px" />&nbsp;</td>
+<td align="left"><p>Link directions are essential to the functionality of networks and their prediction is helpful towards a better knowledge of directed networks from incomplete real-world data. We study the problem of predicting the directions of some links by using the existence and directions of the rest of links. </p>
+<p>We propose a solution by first ranking nodes  in a specific order and then predicting each link as stemming from a lower-ranked node towards a higher-ranked one. The proposed ranking method works recursively by utilizing local indicators on multiple scales, each corresponding to a subgraph extracted from the original network. Experiments on real networks show that the directions of a substantial fraction of links can be correctly recovered by our method, which outperforms either purely local or global methods.</p>
+<p><b>Publication</b>:</p>
+<ul>
+<li><p><b>Fangjian Guo</b>, Zimo Yang, and Tao Zhou. <a href="http://dx.doi.org/10.1016/j.physa.2013.03.025">Predicting link directions via a recursive subgraph-based ranking.</a> Physica A: Statistical Mechanics and its Applications (2013).</p>
+</li>
+</ul>
+</td></tr></table>
+<div id="footer">
+<div id="footer-text">
+Page generated 2013-11-20 21:25:51 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script type="text/javascript">

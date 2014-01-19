@@ -1,0 +1,106 @@
+# jemdoc: menu{MENU}{CV.html}
+# jemdoc: analytics{UA-36013347-1}
+= Curriculum Vitae
+
+~~~
+{}{img_left}{CV_overview.jpg}{Thumbnail for CV}{300}{}{CV_FangjianGuo.pdf}
+You can download my [CV_FangjianGuo.pdf full CV in PDF format] or read the abbreviated version as follows.
+~~~
+
+== Personal Information
+~~~
+{}{table}{CVTable}
+*Name*  | Fangjian Guo ||
+*Email*| [richardkwo@gmail.com] ||
+*Website*   | [http://richardkwo.net richardkwo.net] ||
+*Tel*	| 86-13882042045||
+*Address* | Yingcai Experimental School, University of Electronic Science and Technology of China \n Xiyuan Dadao Street, 2006, Chengdu, Sichuan 611731, P.R.China
+~~~
+
+== Education
+~~~
+{}{table}{CVTable}
+*Dates*  | 2009 -- Present ||
+* Degree * | B.Eng. in Computer Science and Technology (degree expected June, 2013) ||
+* Institution * | Yingcai Experimental School (school for *top undergraduates*)\n University of Electronic Science and Technology of China (UESTC), Chengdu ||
+* GPA * | *3.89*\/4.00  (*92.6*\/100) ||
+* Ranking * | *1*\/110 
+~~~
+
+== Standard Tests
+~~~
+{}{table}{CVTable}
+* TOEFL * | 30 (Reading) \+ 30 (Listening) \+ 24 (Speaking) \+ 29 (Writing) \= *113* ||
+* GRE * | 690 (Verbal) \+ 800 (Quantitative) \+ 4.5 (A.W.) (Top 2% globally)
+~~~
+
+== Research Experience
+(See my [project.html *projects*] for details)
+=== [project.html The Memory of Power-law Series]
+~~~
+{}{table}{CVTable}
+*Dates*  | Aug 2012 -- Present ||
+* Advisor * | Prof. Tao Zhou ||
+* Institution* | Web Sciences Center, School of Computer Science and Engineering, UESTC, Chengdu ||
+* Main idea* | Power-law distribution emerges in empirical data from human activities and complex systems. We study whether power-law naturally imposes a constraint on the memory (first-order autocorrelation) of random series and the generation of power-law series with specified memory. ||
+* My Contributions * |
+- Derived analytically the bounds for memory of permuted i.i.d. power-law sequence.
+- Validated theoretical results with numerical simulations.
+- Designed a simple algorithm for tuning the memory by iterative rearrangement.
+~~~
+
+=== [project.html Inverse Ising Problem via Pseudolikelihood Maximization]
+~~~
+{}{table}{CVTable}
+*Dates*  |July 2012 -- Aug 2012 ||
+* Advisor * | [http://power.itp.ac.cn/~zhouhj/index.html Prof. Haijun Zhou] ||
+* Institution* | Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing ||
+* My Contributions * |
+- Implemented the algorithm for learning interactions by maximizing pseudolikelihood.
+- Evaluated the algorithm by feeding samples from Monte Carlo simulation with different sizes and temperatures.
+~~~
+
+=== [project.html Predicting link directions via a recursive subgraph-based ranking]
+~~~
+{}{table}{CVTable}
+*Dates*  |Feb 2012 -- June 2012 ||
+* Collaborator * | Prof. Tao Zhou (/advisor/) and Zimo Yang ||
+* Institution* | Web Sciences Center, School of Computer Science and Engineering, UESTC, Chengdu ||
+* Main idea* | For incomplete directed networks, ranking is applied to the problem of predicting link directions by using other links. We propose a solution by first ranking nodes in a specific order and then predicting these links as stemming from a lower-ranked node towards a higher-ranked one. The proposed ranking method works recursively by utilizing local indicators on multiple scales, each corresponding to a subgraph extracted from the original network. ||
+* Preprint * | [http://arxiv.org/abs/1206.2199 /Predicting link directions via a recursive subgraph-based ranking/] (submitted to /Physica A/) ||
+* My Contributions * |
+- Collaborated with coauthors to develop the ranking algorithm.
+- Analyzed the performance of the algorithm with empirical data.  
+~~~
+
+== Academic Activities 
+=== CCAST summer school on statistical physics and complex systems
+~~~
+{}{table}{CVTable}
+*Dates*  |July 2012 ||
+* Institution* | Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing
+~~~
+
+== Honors and Awards
+~~~
+{}{table}{CVTable}
+*2012*  | *Outstanding Winner* in the 2012 Interdisciplinary Contest in Modeling (ICM) ||
+* 2011 * | *Special Prize* in National English Contest for College Students ||
+* 2009 -- 2010 * | *National Scholarship* ||
+* 2010 -- 2011 * | *National Scholarship*
+~~~
+
+== Skills
+~~~
+{}{table}{CVTable}
+*Programming*  |C, C\+\+, Python and MATLAB with practical experiences ||
+*Language* | Chinese (native), English (TOEFL 113) 
+~~~
+
+== Publications
+
+. *Fangjian Guo*, Jiang Su, and Jian Gao. [papers/ICM2012Paper.pdf Finding conspirators in the network via machine learning].\n 
+/The UMAP Journal, 33(3), 2012./\n
+*(Outstanding Winner papar for [http://www.comap.com/undergraduate/contests/mcm/contests/2012/results/ Interdisciplinary Contest in Modeling (MCM/ICM) 2012])*
+. *Fangjian Guo*, Zimo Yang, and Tao Zhou. [http://arxiv.org/pdf/1206.2199v3 Predicting link directions via a recursive subgraph-based ranking].\n
+/Physica A (under review)/, [http://arxiv.org/abs/1206.2199 arXiv: 1206.2199]

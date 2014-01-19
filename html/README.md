@@ -1,0 +1,2 @@
+personal website hosted at http://www.cs.duke.edu/~guo/ and http://richardkwo.net
+

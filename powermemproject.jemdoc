@@ -1,0 +1,146 @@
+# jemdoc: menu{MENU}{project.html}
+# jemdoc: analytics{UA-36013347-1}
+# jemdoc: addpackage{amsmath}
+# jemdoc: addpackage{amssymb}
+# jemdoc: addpackage{bm}
+# jemdoc: addpackage{amsfonts}
+= Power-law Constrains Memory?
+
+*Power-law distribution* is ubiquitous in data from complex systems, such as traffic, social networks and human activities. Meanwhile, most of the inter-event time series from such real systems are also found to be positively autocorrelated *(positive memory)*. In this study, we analyze the hidden relation between memory and power-law distribution. We want to know whether such a positive tendency in memory is due to the constraints imposed by the power-law marginal.
+
+== Measuring short-range memory of time series with first-order autocorrelation
+For time series $\{ T_1, T_2, \cdots, T_n \} $, 
+the first-order autocorrelation has been widely used for characterizing the 
+short-range memory. 
+
+The first-order autocorrelation is 
+defined as the Pearson's correlation between $\{ T_1, T_2, \cdots, T_{n-1} \}$ and 
+its lag-one counterpart $ \{ T_2, T_3, \cdots, T_n \} $, namely
+\(
+M = \frac{1}{n-1} \sum_{i=1}^{n-1} \frac{(T_i -m_1)(T_{i+1} - m_2)}{\sigma_1 \sigma_2},
+\)
+which is also referred to as "memory" by physicists studying complex systems.
+
+== Statistical properties of time series in complex systems: power-law and memory
+~~~
+{}{img_left}{projects/email_series.png}{The inter-event time series for email}{400}{}{}
+
+Complex systems usually refer to those made up of a large number of components interacting 
+in a complex structure. 
+Traffic, earthquakes, climate, and even the society are examples of complex systems. 
+Complex systems are famous for their "emergence", i.e. the system as a whole exhibit some properties
+that are not obvious from its individual components. In other words, these properties "emerge" from 
+the interaction of its components.
+
+In the study of the temporal pattern of complex systems, physicists have investigated 
+the statistical properties of inter-event times series, which refer to the time series 
+corresponding to the time elapsed during two consecutive events. For example, if we record 
+the time when an earthquakes occurs and then translate the time between every two consecutive earthquakes into a new time series, we now have an inter-event time series for earthquakes.
+
+Two notable statistical properties are found for these inter-event time series. First, 
+they are usually marginally power-law distributed. The power-law distribution also partially 
+explains the bursty nature of activities, characterized by "short timeframes of intense activity followed
+by long times of no or reduced activity" *\[1\]*. Second, most inter-event time series are found to 
+be positively autocorrelated, namely long intervals between activities tend to be followed by long 
+intervals and short followed by short.
+
+/Image: the inter-event time series of email communications, excerpted from [http://arxiv.org/abs/physics/0610233]/
+~~~
+
+Moreover, these two statistical properties were supposed to be "orthogonal" *\[1\]*, suggesting that  
+power-law itself implies nothing on the memory and /vice versa/. However, in this study, we find that 
+power-law naturally constrains the memory of series to a region narrower than that of either 
+Gaussian or uniform series. And the bounds for this region depend on the scaling exponent of 
+power-law distribution. 
+
+References:
+- \[1\] [http://iopscience.iop.org/0295-5075/81/4/48002 K. I. Goh and A. L. Barabasi. Burstiness and memory in complex systems. /Europhysics Letters/, 2008.]
+
+== Bounds of memory for shuffled i.i.d. series
+We derived our results for a family of random series, i.e. shuffled i.i.d. series. Such a series for marginal distribution $F(x)$ is formed by:\n(1) independently drawing samples from the same distribution\n (2) shuffling the ordering of the elements arbitrarily while preserving their values.
+
+The first step anchors the marginal distribution of the series, such that every element in the series follows the same distribution $F(x)$ if treating independently. Then, the second step changes the structure of dependence among elements. For example, the series formed by sorting the elements in the increasing order should exhibit stronger autocorrelation than a random ordering. While such a process cannot fully cover the possible intercorrelation structure (copula) among elements, we find that results obtained from such an arbitrary-ordering family 
+are satisfactory in revealing empirically supported patterns that have been otherwise overlooked.
+
+To be formal, consider the series $\{ t_1, t_2, \cdots, t_n \}$, each sampled independently from the same
+distribution $F(x)$. Then, we apply a permutation $\theta: \{1, 2, \cdots, n\} \rightarrow \{1, 2, \cdots, n\}$ to the originals series, resulting in a new series $\{ t_{\theta(1)}, t_{\theta(2)}, \cdots, t_{\theta(n)}\}$. Among the possible permutations (state space of size $n!$), there would be one series with maximum $M$ and one with minimum $M$, whose memories are denoted by 
+\(
+M_{\max}(\{t_n\}) = \max_{\theta} M(\{t_{\theta(n)}\}), 
+\)
+and 
+\(
+M_{\min}(\{t_n\}) = \min_{\theta} M(\{t_{\theta(n)}\}).
+\)
+
+Our theoretical bounds are established in these two senses: \n
+(1) In the sense of expectation, i.e. the expected values of $M_{\max}$ and $M_{\min}$ with respect to the sampling process.\n
+(2) In the limit of large length, namely $n \rightarrow \infty$.
+
+That is to say, given the distribution $F(x)$, the bounds for memory are defined as 
+\(
+M_{\max} = \lim_{n \rightarrow \infty} E[M_{\max}(\{t_n\})],
+\)
+\(
+M_{\min} = \lim_{n \rightarrow \infty} E[M_{\min}(\{t_n\})].
+\)
+
+For $F(x)$ being either Gaussian or uniform distributions, we always have $M_{\max} = 1$ and $M_{\min}=-1$, 
+which means Gaussian and uniform distributions fully cover the natural range of $M$, which itself is a value ranging from -1 to +1.
+
+~~~
+{}{img_left}{projects/power_mem_bounds.png}{The inter-event time series for email}{500}{}{}
+
+However, quite interestingly, power-law constrains memory to a much narrower region. And we analytically derived its bounds as functions of the scaling exponent.
+
+For $1<\alpha \leq 3$, $ M_{\min} = 0, \  M_{\max} \approx \lim_{n \rightarrow \infty} \frac{\sum_{k=2}^{n-1} (k^2-1)^{-c} + 2^{-c}}{\sum_{k=0}^{n-1} (k+1)^{-2c}} \  (c=\frac{1}{\alpha-1}) $,
+
+For $\alpha > 3$, $M_{\min} = \frac{1}{\sigma(\alpha)^2} [2B(\frac{1}{2}; \frac{1}{m(\alpha)}, \frac{1}{m(\alpha)}) - m(\alpha)^2], \  M_{\max}=1$, where $B(\cdot)$ is [http://en.wikipedia.org/wiki/Beta_function incomplete beta function].
+
+
+The left figure plots $M_{\max}$ and $M_{\min}$ versus the scaling exponent of the power-law distribution. 
+
+$\alpha=3$ is a turning point for the bounds of memory, which coincides with the turning point between divergence and convergence for the second moment of power-law. Among others, it is quite interesting to notice:
+
+(1) When $1 < \alpha \leq 3$, the memory is constrained to be *positive*.
+
+(2) When $3 < \alpha$, the upper bound goes to +1 while the lower bound slowly decays (but still *above -1*).
+
+Readers interested in mathematical details (involving order statistics, Gamma functions, approximation for diverging statistics) may refer to *\[2\]*.
+~~~
+
+References:
+- \[2\] [papers/PowerMemPaper.pdf Fangjian Guo and Tao Zhou. The relation between memory and power-law exponent (in progress).]
+
+== Comparing theoretical results with empirical data
+We compared our results with empirical inter-event time series collected from online human activities. 
+
+From the data of [http://movielens.umn.edu/login /MovieLens/], for every user recorded in data, we extracted his or her inter-event time series for rating movies. From the dataset of [https://twitter.com/ /Twitter/], we extracted the inter-event time series for each user's tweeting activities. 
+
+To test out results, we only selected those series that are (1) long enough (2) well fitted to power-law. We used the methods introduced in *\[3\]* for fitting and measuring its goodness with p-value. 
+
+~~~
+{}{img_left}{projects/movlens.png}{Comparing theoretical bounds with MovieLens data}{500}{}{}
+{{<img src="projects/twitter.png" alt="NZ" WIDTH=500/>}}
+~~~
+
+References:
+- \[3\] [http://epubs.siam.org/doi/abs/10.1137/070710111 A. Clauset, C. Shalizi, and M. Newman. Power-law distributions in empirical data. SIAM Review, 51(4):661–703, 2009.]
+
+== Steps ahead
+We plan to study further on these  topics:
+- Are these results generalizable to autocorrelation in a longer range?
+- How to measure the memory effect of time series without distribution-specific bias?
+
+== Talks & Progress 
+- \[Jan 24, 2013\]~~~ I recently made a presentation on this work at a winter school held at my university.\n
+Slides: [talks/BurstMemSlides.pdf Memory in Bursty Systems]
+
+== Note
+Our working paper:\n
+[papers/PowerMemPaper.pdf /Fangjian Guo and Tao Zhou. The relation between memory and power-law exponent (in progress)/].
+
+If you are interested in citing our results now (coming soon on arXiv) or discussing relevant issues, please feel free to email [index.html me].
+
+
+
+

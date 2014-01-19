@@ -1,0 +1,65 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: title{Fangjian Guo's Home Page}
+# jemdoc: analytics{UA-36013347-1}
+= Fangjian Guo
+(aka /Richard Kwo/ / 郭方健)
+
+~~~
+{}{img_left}{kwo.jpg}{My photo}{200}{}{}
+*Fourth-year undergraduate* student majoring in *Computer Science*.\n
+
+Yingcai Experimental School (School of *Honor*), \n
+[http://www.oice.uestc.edu.cn/en/ University of Electronic Science and Technology of China (UESTC)], \n
+Chengdu, P.R.China.\n
+
+*Research Assistant* (visiting, advised by [http://weblab.com.cityu.edu.hk/blog/jzhu/ /Prof. Jonathan J. H. Zhu/]), \n
+[http://weblab.com.cityu.edu.hk/blog/ Web Mining Lab], \n
+Department of Media and Communication, \n
+City University of Hong Kong.
+
+*Research Student* (advised by /Prof. Tao Zhou/), \n
+Web Sciences Center, \n
+University of Electronic Science and Technology of China (UESTC).  
+
+~~~
+
+== Contact
+Tel: +8613882042045\n
+Email: [richardkwo@gmail.com]\n
+Address: No. 2006, Xiyuan Ave, West Hi-Tech Zone,\n
+Chengdu 611731, Sichuan, P.R.China
+
+== Short Bio
+
+I am a final-year undergraduate student in computer science, studying in Yingcai Experimental School, 
+University of Electronic Science and Technology of China. Before that, I attended Chengdu No. 7 High School. I am now *looking for a graduate school to continue my research in computer science*.
+
+While being a CS major, statistical physics has been my long-time fascination. I am interested in research that explores the deep connections between machine learning and statistical physics. 
+
+I also study social networks and human activities with computational methods, under advisory of Prof. Tao Zhou. I enjoy working with my advisor and lab-mates on human-related academic topics, including ranking algorithms, temporal networks models and statistical properties of human behaviors. With two teammates, I was awarded the "Outstanding Winner" in this year's MCM\/ICM for a challenge on inferring criminals in social networks.
+
+
+
+== What's new
+
+- \[2013\/01\]~~~I made a presentation titled [talks/BurstMemSlides.pdf ``Memory in Bursty Systems''] at a winter school held at UESTC and discussed relevant problems with [http://statphys.skku.ac.kr/ /Prof. Beom Jun Kim/] from [http://www.skku.edu/eng/ Sungkyunkwan University], Korea.
+
+- \[2013\/01\]~~~[powermemproject.html New updates] on my project investigating the relation between memory (autocorrelation) and power-law.
+
+- \[2012\/12\]~~~I am now a Research Assistant /visiting/ at [http://weblab.com.cityu.edu.hk/blog/ *Web Mining Lab*], [http://www.cityu.edu.hk/ *City University of Hong Kong*]. I will be working in CityU from Dec 2012 to Feb 2013. I plan to study the structural evolution of social networks under advisory of [http://weblab.com.cityu.edu.hk/blog/jzhu/ Professor Jonathan Zhu].
+
+- \[2012\/12\]~~~I feel honored to be awarded as one of the *Outstanding Students* in my university, the highest honor for UESTC graduates. (10 out of 4,500 undergraduates in 09')
+
+- \[2012\/12\]~~~I have just found (with glad surprise) that [http://arxiv.org/abs/1206.2199 my paper on ranking and direction] has been cited and used by [http://www.cs.cornell.edu/~sucheta/papers/LinkDirections.pdf /Sucheta Soundarajan/ and /Prof. John E. Hopcroft/] at Cornell CS.
+
+- \[2012\/11\]~~~I am currently working on the project of *the memory of power-law random series*, 
+see [project.html my projects] for more information.
+
+
+== Research Interests
+- *Machine Learning*,
+- and its connection with *Statistical Physics* (e.g. Monte Carlo, Belief Propagation).
+- Structure, function and evolution of *Social Networks*.
+- Dynamics and statistical properties of *Complex Systems*.
+
+

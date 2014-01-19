@@ -1,0 +1,153 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Power-law Constrains Memory?</title>
+</head>
+<body>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+    var pageTracker = _gat._getTracker("UA-36013347-1");
+    pageTracker._trackPageview();
+} catch(err) {}</script>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Info</div>
+<div class="menu-item"><a href="index.html">Main</a></div>
+<div class="menu-item"><a href="CV.html">Curriculum&nbsp;Vitae</a></div>
+<div class="menu-category">Research</div>
+<div class="menu-item"><a href="project.html" class="current">Projects</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="talks.html">Talks/Slides</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Power-law Constrains Memory?</h1>
+</div>
+<p><b>Power-law distribution</b> is ubiquitous in data from complex systems, such as traffic, social networks and human activities. Meanwhile, most of the inter-event time series from such real systems are also found to be positively autocorrelated <b>(positive memory)</b>. In this study, we analyze the hidden relation between memory and power-law distribution. We want to know whether such a positive tendency in memory is due to the constraints imposed by the power-law marginal.</p>
+<h2>Measuring short-range memory of time series with first-order autocorrelation</h2>
+<p>For time series <img class="eq" src="eqs/1176453084434262149-130.png" alt="{ T_1, T_2, cdots, T_n } " style="vertical-align: -5px" />, 
+the first-order autocorrelation has been widely used for characterizing the 
+short-range memory. </p>
+<p>The first-order autocorrelation is 
+defined as the Pearson's correlation between <img class="eq" src="eqs/8180015942328718546-130.png" alt="{ T_1, T_2, cdots, T_{n-1} }" style="vertical-align: -5px" /> and 
+its lag-one counterpart <img class="eq" src="eqs/7726084162040611454-130.png" alt=" { T_2, T_3, cdots, T_n } " style="vertical-align: -5px" />, namely</p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/4654223287388849747-130.png" alt=" M = frac{1}{n-1} sum_{i=1}^{n-1} frac{(T_i -m_1)(T_{i+1} - m_2)}{sigma_1 sigma_2}, " />
+<br /></div><p>which is also referred to as &ldquo;memory&rdquo; by physicists studying complex systems.</p>
+<h2>Statistical properties of time series in complex systems: power-law and memory</h2>
+<table class="imgtable"><tr><td>
+<img src="projects/email_series.png" alt="The inter-event time series for email" width="400px" />&nbsp;</td>
+<td align="left"><p>Complex systems usually refer to those made up of a large number of components interacting 
+in a complex structure. 
+Traffic, earthquakes, climate, and even the society are examples of complex systems. 
+Complex systems are famous for their &ldquo;emergence&rdquo;, i.e. the system as a whole exhibit some properties
+that are not obvious from its individual components. In other words, these properties &ldquo;emerge&rdquo; from 
+the interaction of its components.</p>
+<p>In the study of the temporal pattern of complex systems, physicists have investigated 
+the statistical properties of inter-event times series, which refer to the time series 
+corresponding to the time elapsed during two consecutive events. For example, if we record 
+the time when an earthquakes occurs and then translate the time between every two consecutive earthquakes into a new time series, we now have an inter-event time series for earthquakes.</p>
+<p>Two notable statistical properties are found for these inter-event time series. First, 
+they are usually marginally power-law distributed. The power-law distribution also partially 
+explains the bursty nature of activities, characterized by &ldquo;short timeframes of intense activity followed
+by long times of no or reduced activity&rdquo; <b>[1]</b>. Second, most inter-event time series are found to 
+be positively autocorrelated, namely long intervals between activities tend to be followed by long 
+intervals and short followed by short.</p>
+<p><i>Image: the inter-event time series of email communications, excerpted from <a href="http://arxiv.org/abs/physics/0610233">http://arxiv.org/abs/physics/0610233</a></i></p>
+</td></tr></table>
+<p>Moreover, these two statistical properties were supposed to be &ldquo;orthogonal&rdquo; <b>[1]</b>, suggesting that  
+power-law itself implies nothing on the memory and <i>vice versa</i>. However, in this study, we find that 
+power-law naturally constrains the memory of series to a region narrower than that of either 
+Gaussian or uniform series. And the bounds for this region depend on the scaling exponent of 
+power-law distribution. </p>
+<p>References:</p>
+<ul>
+<li><p>[1] <a href="http://iopscience.iop.org/0295-5075/81/4/48002">K. I. Goh and A. L. Barabasi. Burstiness and memory in complex systems. <i>Europhysics Letters</i>, 2008.</a></p>
+</li>
+</ul>
+<h2>Bounds of memory for shuffled i.i.d. series</h2>
+<p>We derived our results for a family of random series, i.e. shuffled i.i.d. series. Such a series for marginal distribution <img class="eq" src="eqs/4328376043691676305-130.png" alt="F(x)" style="vertical-align: -5px" /> is formed by:<br />(1) independently drawing samples from the same distribution<br /> (2) shuffling the ordering of the elements arbitrarily while preserving their values.</p>
+<p>The first step anchors the marginal distribution of the series, such that every element in the series follows the same distribution <img class="eq" src="eqs/4328376043691676305-130.png" alt="F(x)" style="vertical-align: -5px" /> if treating independently. Then, the second step changes the structure of dependence among elements. For example, the series formed by sorting the elements in the increasing order should exhibit stronger autocorrelation than a random ordering. While such a process cannot fully cover the possible intercorrelation structure (copula) among elements, we find that results obtained from such an arbitrary-ordering family 
+are satisfactory in revealing empirically supported patterns that have been otherwise overlooked.</p>
+<p>To be formal, consider the series <img class="eq" src="eqs/2757778093442938730-130.png" alt="{ t_1, t_2, cdots, t_n }" style="vertical-align: -5px" />, each sampled independently from the same
+distribution <img class="eq" src="eqs/4328376043691676305-130.png" alt="F(x)" style="vertical-align: -5px" />. Then, we apply a permutation <img class="eq" src="eqs/1687758656346283004-130.png" alt="theta: {1, 2, cdots, n} rightarrow {1, 2, cdots, n}" style="vertical-align: -5px" /> to the originals series, resulting in a new series <img class="eq" src="eqs/6298569276614932174-130.png" alt="{ t_{theta(1)}, t_{theta(2)}, cdots, t_{theta(n)}}" style="vertical-align: -8px" />. Among the possible permutations (state space of size <img class="eq" src="eqs/14080084590127081-130.png" alt="n!" style="vertical-align: -1px" />), there would be one series with maximum <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" /> and one with minimum <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" />, whose memories are denoted by </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/3959152700368304552-130.png" alt=" M_{max}({t_n}) = max_{theta} M({t_{theta(n)}}),  " />
+<br /></div><p>and </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/3942677347497476547-130.png" alt=" M_{min}({t_n}) = min_{theta} M({t_{theta(n)}}). " />
+<br /></div><p>Our theoretical bounds are established in these two senses: <br />
+(1) In the sense of expectation, i.e. the expected values of <img class="eq" src="eqs/5717853834834033198-130.png" alt="M_{max}" style="vertical-align: -4px" /> and <img class="eq" src="eqs/5717845834852033316-130.png" alt="M_{min}" style="vertical-align: -3px" /> with respect to the sampling process.<br />
+(2) In the limit of large length, namely <img class="eq" src="eqs/2308487461214415589-130.png" alt="n rightarrow infty" style="vertical-align: -1px" />.</p>
+<p>That is to say, given the distribution <img class="eq" src="eqs/4328376043691676305-130.png" alt="F(x)" style="vertical-align: -5px" />, the bounds for memory are defined as </p>
+
+<div class="eqwl"><img class="eqwl" src="eqs/2783937114357817422-130.png" alt=" M_{max} = lim_{n rightarrow infty} E[M_{max}({t_n})], " />
+<br /></div>
+<div class="eqwl"><img class="eqwl" src="eqs/5403824712036822900-130.png" alt=" M_{min} = lim_{n rightarrow infty} E[M_{min}({t_n})]. " />
+<br /></div><p>For <img class="eq" src="eqs/4328376043691676305-130.png" alt="F(x)" style="vertical-align: -5px" /> being either Gaussian or uniform distributions, we always have <img class="eq" src="eqs/3343037050912814030-130.png" alt="M_{max} = 1" style="vertical-align: -4px" /> and <img class="eq" src="eqs/709880935364946992-130.png" alt="M_{min}=-1" style="vertical-align: -3px" />, 
+which means Gaussian and uniform distributions fully cover the natural range of <img class="eq" src="eqs/9856029644-130.png" alt="M" style="vertical-align: -0px" />, which itself is a value ranging from -1 to +1.</p>
+<table class="imgtable"><tr><td>
+<img src="projects/power_mem_bounds.png" alt="The inter-event time series for email" width="500px" />&nbsp;</td>
+<td align="left"><p>However, quite interestingly, power-law constrains memory to a much narrower region. And we analytically derived its bounds as functions of the scaling exponent.</p>
+<p>For <img class="eq" src="eqs/8967163915721411637-130.png" alt="1&lt;alpha leq 3" style="vertical-align: -3px" />, <img class="eq" src="eqs/6461107272371490561-130.png" alt=" M_{min} = 0,   M_{max} approx lim_{n rightarrow infty} frac{sum_{k=2}^{n-1} (k^2-1)^{-c} + 2^{-c}}{sum_{k=0}^{n-1} (k+1)^{-2c}}   (c=frac{1}{alpha-1}) " style="vertical-align: -18px" />,</p>
+<p>For <img class="eq" src="eqs/9011804019582490705-130.png" alt="alpha &gt; 3" style="vertical-align: -1px" />, <img class="eq" src="eqs/21919382334207606-130.png" alt="M_{min} = frac{1}{sigma(alpha)^2} [2B(frac{1}{2}; frac{1}{m(alpha)}, frac{1}{m(alpha)}) - m(alpha)^2],   M_{max}=1" style="vertical-align: -11px" />, where <img class="eq" src="eqs/4544800960996790673-130.png" alt="B(cdot)" style="vertical-align: -5px" /> is <a href="http://en.wikipedia.org/wiki/Beta_function">incomplete beta function</a>.</p>
+<p>The left figure plots <img class="eq" src="eqs/5717853834834033198-130.png" alt="M_{max}" style="vertical-align: -4px" /> and <img class="eq" src="eqs/5717845834852033316-130.png" alt="M_{min}" style="vertical-align: -3px" /> versus the scaling exponent of the power-law distribution. </p>
+<p><img class="eq" src="eqs/2031553203679749212-130.png" alt="alpha=3" style="vertical-align: -1px" /> is a turning point for the bounds of memory, which coincides with the turning point between divergence and convergence for the second moment of power-law. Among others, it is quite interesting to notice:</p>
+<p>(1) When <img class="eq" src="eqs/5927681684978963723-130.png" alt="1 &lt; alpha leq 3" style="vertical-align: -3px" />, the memory is constrained to be <b>positive</b>.</p>
+<p>(2) When <img class="eq" src="eqs/1056302641961930561-130.png" alt="3 &lt; alpha" style="vertical-align: -1px" />, the upper bound goes to +1 while the lower bound slowly decays (but still <b>above -1</b>).</p>
+<p>Readers interested in mathematical details (involving order statistics, Gamma functions, approximation for diverging statistics) may refer to <b>[2]</b>.</p>
+</td></tr></table>
+<p>References:</p>
+<ul>
+<li><p>[2] <a href="papers/PowerMemPaper.pdf">Fangjian Guo and Tao Zhou. The relation between memory and power-law exponent (in progress).</a></p>
+</li>
+</ul>
+<h2>Comparing theoretical results with empirical data</h2>
+<p>We compared our results with empirical inter-event time series collected from online human activities. </p>
+<p>From the data of <a href="http://movielens.umn.edu/login"><i>MovieLens</i></a>, for every user recorded in data, we extracted his or her inter-event time series for rating movies. From the dataset of <a href="https://twitter.com/"><i>Twitter</i></a>, we extracted the inter-event time series for each user's tweeting activities. </p>
+<p>To test out results, we only selected those series that are (1) long enough (2) well fitted to power-law. We used the methods introduced in <b>[3]</b> for fitting and measuring its goodness with p-value. </p>
+<table class="imgtable"><tr><td>
+<img src="projects/movlens.png" alt="Comparing theoretical bounds with MovieLens data" width="500px" />&nbsp;</td>
+<td align="left"><p><img src="projects/twitter.png" alt="NZ" WIDTH=500/></p>
+</td></tr></table>
+<p>References:</p>
+<ul>
+<li><p>[3] <a href="http://epubs.siam.org/doi/abs/10.1137/070710111">A. Clauset, C. Shalizi, and M. Newman. Power-law distributions in empirical data. SIAM Review, 51(4):661–703, 2009.</a></p>
+</li>
+</ul>
+<h2>Steps ahead</h2>
+<p>We plan to study further on these  topics:</p>
+<ul>
+<li><p>Are these results generalizable to autocorrelation in a longer range?</p>
+</li>
+<li><p>How to measure the memory effect of time series without distribution-specific bias?</p>
+</li>
+</ul>
+<h2>Talks &amp; Progress </h2>
+<ul>
+<li><p>[Jan 24, 2013]&nbsp;&nbsp;&nbsp; I recently made a presentation on this work at a winter school held at my university.<br />
+Slides: <a href="talks/BurstMemSlides.pdf">Memory in Bursty Systems</a></p>
+</li>
+</ul>
+<h2>Note</h2>
+<p>Our working paper:<br />
+<a href="papers/PowerMemPaper.pdf"><i>Fangjian Guo and Tao Zhou. The relation between memory and power-law exponent (in progress)</i></a>.</p>
+<p>If you are interested in citing our results now (coming soon on arXiv) or discussing relevant issues, please feel free to email <a href="index.html">me</a>.</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2013-11-20 21:04:53 EST, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+<script type="text/javascript">

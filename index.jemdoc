@@ -1,0 +1,101 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: title{Fangjian Guo's Home Page}
+# jemdoc: analytics{UA-36013347-1}
+# jemdoc: addpackage{amsmath, amssymb}
+= Fangjian Guo
+(aka /Richard Kwo/ / 郭方健)
+
+~~~
+{}{img_left}{kwo-3.jpg}{My photo}{220}{}{}
+*First-Year PhD student*
+
+[http://www.cs.duke.edu/ Department of Computer Science], \n
+[http://duke.edu/ Duke Univeristy], \n
+[https://www.google.com/maps?sll=36.0024071,-78.9370579&sspn=0.02423327337426626,0.061800491502095954&t=m&q=Levine+Science+Research+Center,+Durham,+NC&dg=opt&ie=UTF8&hq=&hnear=Levine+Science+Research+Center,+Durham,+North+Carolina+27710&ll=36.004691,-78.941917&spn=0.01038,0.022724&z=16&vpsrc=0&iwloc=A Durham, NC 27708, USA].
+
+This site is mirrored at 
+- [http://richardkwo.net]
+- [http://www.cs.duke.edu/~guo]
+~~~
+
+== Contact
+*Email* 
+{{<a href="http://www.cs.duke.edu/"><img src="cslogo.png" alt="Duke CS logo" align="right" width=200> </a>}}
+- Academic: {{<img src="csmail.png" align="bottom">}}
+- Personal: {{<img src="gmail.png" align="bottom">}}
+
+*GitHub*
+- [https://github.com/richardkwo]
+
+*LinkedIn*
+- [http://www.linkedin.com/in/richardkwo]
+
+*Weibo* 
+- [http://www.weibo.com/richardkwo]
+
+*Address* 
+- Duke University Department of Computer Science \n
+LSRC Building D101, 308 Research Dr, Campus Box 90129 \n
+Durham NC 27708-0129
+
+== Research Interests
+- *Machine Learning* and its connection with *Statistical Physics* (/e.g. Monte Carlo, Ising and graphical models, Belief propagation, etc./)
+- *Bayesian Statistics* (/the Dukie way of doing stat.../)
+- How *humans* organize, interact and behave (/e.g. social networks, human dynamics, etc./) 
+- Dynamical and statistical properties of *Complex Systems*
+
+== Short Bio
+
+I am now a first-year PhD in the Department Computer Science, Duke University. 
+
+Before that, I got my bachelors degree in computer science from [http://www.oice.uestc.edu.cn/en/ University of Electronic Science and Technology of China (UESTC)] in [http://en.wikipedia.org/wiki/Chengdu Chengdu], [http://en.wikipedia.org/wiki/Sichuan Sichuan]. (/Chengdu is my 2nd hometown where I lived for 7 years./) I was a member of its [http://www.yingcai.uestc.edu.cn/ Yingcai Experimental School], where I attended a comprehensive spectrum of courses in science and engineering (/math & physics are fun, while circuits are not.../). As part of my undergraduate studies, I worked with [http://scholar.google.com/citations?user=MXgWgmEAAAAJ&hl=en&oi=ao Prof. Tao Zhou] on a few human-related research topics, including ranking algorithms, modeling social network evolution and statistical properties of human behaviors.
+
+Even before that, I grew up in [http://en.wikipedia.org/wiki/Deyang Deyang], [http://en.wikipedia.org/wiki/Sichuan Sichuan], in the community of a [http://www.china-erzhong.com/erzhong-en/ huge state-owned factory] (/heavy industrial parts still evoke my childhood belongingness/), where most of my family members are\/were working. Then I attended the century-old [http://www.cdqz.net/ Chengdu No. 7 High School].
+
+While being a CS major, physics has also been my long-time fascination. I am interested in research that explores the deep connections between machine learning and statistical physics. 
+
+== What's new
+
+{{<img src="baby_blue_devil.jpg" align="right" width=150>}}
+- \[2014\/01\]~~~This Spring, I will work as TA with [http://www.cs.duke.edu/~parr/ Dr. Parr] on [http://www.cs.duke.edu/courses/spring14/compsci270/ CPS 270: Introduction to Artificial Intelligence].
+
+- \[2014\/01\]~~~Hmm, my second semester for the new year. I am taking
+-- CPS 590: Advanced Machine Learning, taught by [http://stat.duke.edu/~kheller/ Dr. Heller]
+-- [http://www.stat.duke.edu/courses/Spring14/sta961.01/ STA 960: Statistical Stochastic Processes], taught by [http://www.stat.duke.edu/courses/Spring14/sta961.01/ Dr. Wolpert]
+
+- \[2013\/09\]~~~For my first semester in Duke (2013 Fall), I am taking 
+-- [http://www.genome.duke.edu/labs/engelhardt/courses/sta561.html STA 561: Statistical machine learning], taught by [http://www.genome.duke.edu/labs/engelhardt/ Dr. Engelhardt]
+-- STA 601: Bayesian and modern statistics, taught by [http://www.isds.duke.edu/~dunson/ Dr. Dunson]
+-- [http://www.cs.duke.edu/courses/fall13/compsci530/ CPS 530: Design and analysis of algorithms], taught by [http://www.cs.duke.edu/~debmalya/ Dr. Panigrahi]
+
+- \[2013\/08\]~~~I joined Duke as a PhD student in computer science! A fresh [http://en.wikipedia.org/wiki/Duke_Blue_Devils blue devil] now! 
+
+- \[2013\/08\]~~~The paper below appeared on [http://dx.doi.org/10.1016/j.physa.2013.03.025 /Physica A/].
+
+- \[2013\/07\]~~~I attended [http://www.statphys25.org/ STATPHYS 25] in Seoul, Korea. The place and people are lovely!
+
+- \[2013\/06\]~~~I [talks/ThesisDefPresentation_Guo.pdf defended my bachelor's thesis] and graduated from UESTC with the highest distinction. Farewell, my dear fella and good old days!
+
+- \[2013\/03\]~~~Our link-prediction paper [http://arxiv.org/pdf/1206.2199v3 /Predicting link directions via a recursive subgraph-based ranking/] coauthored by me and my collaborators is accepted by [http://www.journals.elsevier.com/physica-a-statistical-mechanics-and-its-applications/ /Physica A/].
+
+- \[2013\/03\]~~~I made an introductory lecture on mathematical modeling for 1st-year and 2nd-year undergraduates in my home university. Slides can be found [talks/MMIntro.pdf here].
+
+- \[2013\/03\]~~~I am back from my visiting at City University of Hong Kong. I am continuing the new studies on the "viral marketing" in social networks growth in collaboration with [http://weblab.com.cityu.edu.hk/blog/jzhu/ /Prof. Jonathan Zhu/].
+
+- \[2013\/01\]~~~I made a presentation titled [talks/BurstMemSlides.pdf ``Memory in Bursty Systems''] at a winter school held at UESTC and discussed relevant problems with [http://statphys.skku.ac.kr/ /Prof. Beom Jun Kim/] from [http://www.skku.edu/eng/ Sungkyunkwan University], Korea.
+
+- \[2013\/01\]~~~[powermemproject.html New updates] on my project investigating the relation between memory (autocorrelation) and power-law.
+
+- \[2012\/12\]~~~I served as a visiting Research Assistant at [http://weblab.com.cityu.edu.hk/blog/ Web Mining Lab], [http://www.cityu.edu.hk/ City University of Hong Kong]. I was working in CityU from Dec 2012 to Feb 2013. I studied the structural evolution of social networks under advisory of [http://weblab.com.cityu.edu.hk/blog/jzhu/ /Prof. Jonathan Zhu/].
+
+- \[2012\/12\]~~~I feel honored to be awarded as one of the *Outstanding Students* in my university, the highest honor for UESTC graduates. (10 out of 4,500 undergraduates in 09')
+
+- \[2012\/12\]~~~I have just found (with glad surprise) that [http://arxiv.org/abs/1206.2199 my paper on ranking and direction] has been cited and used by [http://www.cs.cornell.edu/~sucheta/papers/LinkDirections.pdf /Sucheta Soundarajan/ and /Dr. John E. Hopcroft/] at Cornell CS.
+
+- \[2012\/11\]~~~I am currently working on the project of *the memory of power-law random series*, 
+see [project.html my projects] for more information.
+
+
+
+
+

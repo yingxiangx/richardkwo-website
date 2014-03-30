@@ -30,6 +30,9 @@ This site is mirrored at
 *LinkedIn*
 - [http://www.linkedin.com/in/richardkwo]
 
+*Douban*
+- [http://www.douban.com/people/RichardKwo/]
+
 *Weibo* 
 - [http://www.weibo.com/richardkwo]
 
@@ -39,15 +42,16 @@ LSRC Building D101, 308 Research Dr, Campus Box 90129 \n
 Durham NC 27708-0129
 
 == Research Interests
-- *Machine Learning*
-- The connection between learning and *Statistical Physics* (/e.g. Monte Carlo, Ising and graphical models, Belief propagation, etc./)
-- *Bayesian Statistics* (/the Dukie way of doing stat.../)
+- *Machine learning* in general
+- *Bayes nonparametrics*
+- *Scalable Bayesian inference*
+- The connection between learning and *Statistical physics* (/e.g. Monte Carlo, Ising and graphical models, Belief propagation, Stochastic processes, etc./)
 - How *humans* organize, interact and behave (/e.g. social networks, human dynamics, etc./) 
-- Dynamical and statistical properties of *Complex Systems*
+
 
 == Short Bio
 
-I am now a first-year PhD in the Department Computer Science, Duke University. 
+I am now a first-year PhD in the Department Computer Science, Duke University. I am working on machine learning with [http://stat.duke.edu/~kheller/ /Professor Katherine Heller/].
 
 Before that, I got my bachelors degree in computer science from [http://www.oice.uestc.edu.cn/en/ University of Electronic Science and Technology of China (UESTC)] in [http://en.wikipedia.org/wiki/Chengdu Chengdu], [http://en.wikipedia.org/wiki/Sichuan Sichuan]. (/Chengdu is my 2nd hometown where I lived for 7 years./) I was a member of its [http://www.yingcai.uestc.edu.cn/ Yingcai Experimental School], where I attended a comprehensive spectrum of courses in science and engineering (/math & physics are fun, while circuits are not.../). As part of my undergraduate studies, I worked with [http://scholar.google.com/citations?user=MXgWgmEAAAAJ&hl=en&oi=ao Prof. Tao Zhou] on a few human-related research topics, including ranking algorithms, modeling social network evolution and statistical properties of human behaviors.
 
@@ -58,7 +62,12 @@ While being a CS major, physics has also been my long-time fascination. I am int
 == What's new
 
 {{<img src="baby_blue_devil.jpg" align="right" width=150>}}
-- \[2014\/01\]~~~This Spring, I will work as TA with [http://www.cs.duke.edu/~parr/ Dr. Parr] on [http://www.cs.duke.edu/courses/spring14/compsci270/ CPS 270: Introduction to Artificial Intelligence] ([https://piazza.com/duke/spring2014/compsci270/home Piazza]).
+
+- \[2014\/03\]~~~Working on modeling the dynamics of interpersonal communication with Hawkes process and other Bayes nonparametric methods. Meanwhile, started to learn playing guitar.
+
+- \[2014\/03\]~~~Declared [http://stat.duke.edu/~kheller/ my advisor]! Glad to be (one of) her first student. :)
+
+- \[2014\/01\]~~~This Spring, I work as TA with [http://www.cs.duke.edu/~parr/ Dr. Parr] on [http://www.cs.duke.edu/courses/spring14/compsci270/ CPS 270: Introduction to Artificial Intelligence] ([https://piazza.com/duke/spring2014/compsci270/home Piazza]).
 
 - \[2014\/01\]~~~Hmm, my second semester for the new year. I am taking
 -- CPS 590: Advanced Machine Learning, taught by [http://stat.duke.edu/~kheller/ Dr. Heller]
@@ -97,7 +106,11 @@ While being a CS major, physics has also been my long-time fascination. I am int
 - \[2012\/11\]~~~I am currently working on the project of *the memory of power-law random series*, 
 see [project.html my projects] for more information.
 
+== Hobbies
 
-
-
-
+- Classical poetry (mostly Chinese)
+- Typography & typesetting, graphical design, etc.
+- Badminton
+- Reading [http://en.wikipedia.org/wiki/The_Hitchhiker's_Guide_to_the_Galaxy /The Hitchhiker's Guide to the Galaxy/] and other stuff of this flavor!
+- Physics (and yes, it is a hobby)
+- Exploring other interesting stuff (and yes, it is a recursion)

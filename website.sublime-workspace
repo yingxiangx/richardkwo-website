@@ -4,6 +4,7 @@
 		"selected_items":
 		[
 			[
+<<<<<<< HEAD
 				"nu",
 				"number_of_edges  (function)"
 			],
@@ -514,16 +515,535 @@
 			[
 				"lg",
 				"log_likelihood"
+=======
+				"out",
+				"output_file_name"
+			],
+			[
+				"inf",
+				"influence_sent"
+			],
+			[
+				"node",
+				"node_from"
+			],
+			[
+				"coun",
+				"count_token_types"
+			],
+			[
+				"all",
+				"allMessages"
+			],
+			[
+				"mes",
+				"messages_all"
+			],
+			[
+				"mess",
+				"messages_all"
+			],
+			[
+				"synth",
+				"synthetic_Dir"
+			],
+			[
+				"ST",
+				"SYNTHETIC"
+			],
+			[
+				"synte",
+				"synthetic_Dir"
+			],
+			[
+				"snt",
+				"synthetic_pickle_file"
+			],
+			[
+				"synt",
+				"synthetic_Dir"
+			],
+			[
+				"hawre",
+				"hawkesResultDirName"
+			],
+			[
+				"rand",
+				"randint"
+			],
+			[
+				"sample_nu",
+				"sample_number"
+			],
+			[
+				"time_",
+				"time_to_split"
+			],
+			[
+				"msgls",
+				"msglist"
+			],
+			[
+				"message",
+				"message_times"
+			],
+			[
+				"poiss",
+				"poisson_ll_test"
+			],
+			[
+				"save",
+				"savetxt"
+			],
+			[
+				"pos",
+				"posterior_predictive_test_set"
+			],
+			[
+				"poster",
+				"posterior_likelihood_train_set"
+			],
+			[
+				"sample_bec",
+				"sample_bec_noinfluence"
+			],
+			[
+				"test",
+				"test_language_model_realdata"
+			],
+			[
+				"resu",
+				"resultDirName"
+			],
+			[
+				"cl",
+				"close"
+			],
+			[
+				"sav",
+				"savetxt"
+			],
+			[
+				"init",
+				"init_parameters"
+			],
+			[
+				"_word",
+				"_word_pseudocounts"
+			],
+			[
+				"word_pseud",
+				"word_pseudocounts"
+			],
+			[
+				"scal",
+				"scaling_factor"
+			],
+			[
+				"doc",
+				"doc_length"
+			],
+			[
+				"ini",
+				"init_parameters"
+			],
+			[
+				"time",
+				"time_to_split"
+			],
+			[
+				"ba",
+				"baseline_rate"
+			],
+			[
+				"bae",
+				"baseline"
+			],
+			[
+				"opt",
+				"optimize_parameters"
+			],
+			[
+				"load",
+				"loadData"
+			],
+			[
+				"hawke",
+				"hawkes_proc"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"base",
+				"baseline_rate"
+			],
+			[
+				"radn",
+				"randomize_parameters"
+			],
+			[
+				"haw",
+				"hawkes_proc"
+			],
+			[
+				"Mess",
+				"Messages"
+			],
+			[
+				"data",
+				"dataFileName_short"
+			],
+			[
+				"dta",
+				"dataDir"
+			],
+			[
+				"brun",
+				"burn_in_number"
+			],
+			[
+				"word_psed",
+				"word_pseudocounts_sample"
+			],
+			[
+				"word_con",
+				"word_concentration_sample"
+			],
+			[
+				"burn",
+				"burn_in_number"
+			],
+			[
+				"sample_wo",
+				"sample_word_pseudocounts_multivariate"
+			],
+			[
+				"sample_wr",
+				"sample_word_concentration"
+			],
+			[
+				"len",
+				"legend"
+			],
+			[
+				"pro",
+				"word_rank_proportion_of_time"
+			],
+			[
+				"toke",
+				"token"
+			],
+			[
+				"agent",
+				"agent_name"
+			],
+			[
+				"tokens",
+				"tokens_selected"
+			],
+			[
+				"conver",
+				"convergence_ratio"
+			],
+			[
+				"get",
+				"get_participants"
+			],
+			[
+				"save_t",
+				"save_word_evolution"
+			],
+			[
+				"user",
+				"use_prior"
+			],
+			[
+				"inti",
+				"intialized"
+			],
+			[
+				"sca",
+				"scaling"
+			],
+			[
+				"scaln",
+				"scaling_factor"
+			],
+			[
+				"sclaing_fac",
+				"scaling_factor_samples"
+			],
+			[
+				"log_",
+				"log_prob"
+			],
+			[
+				"log_li",
+				"log_likelihood"
+			],
+			[
+				"time_decay",
+				"time_decay_prior"
+			],
+			[
+				"_time",
+				"_time_decay_upper_bound"
+			],
+			[
+				"_inf",
+				"_influence"
+			],
+			[
+				"sample_func",
+				"sample_func_scaling_factor"
+			],
+			[
+				"_scal",
+				"_scaling_factor"
+			],
+			[
+				"slice",
+				"slice_sample"
+			],
+			[
+				"set",
+				"set_influence"
+			],
+			[
+				"scaling",
+				"scaling_factor"
+			],
+			[
+				"scla",
+				"scaling"
+			],
+			[
+				"sclaing",
+				"scaling_factor"
+			],
+			[
+				"_scaling",
+				"_scaling_factor"
+			],
+			[
+				"set_inf",
+				"set_influence"
+			],
+			[
+				"_Scal",
+				"_scaling_factor_prior"
+			],
+			[
+				"word_coen",
+				"word_concentration_prior"
+			],
+			[
+				"time_De",
+				"time_decay_prior"
+			],
+			[
+				"use",
+				"use_prior"
+			],
+			[
+				"set_pseudoco",
+				"set_word_pseudocount_upper_bound"
+			],
+			[
+				"set_word",
+				"set_word_concentration_upper_bound"
+			],
+			[
+				"set_time",
+				"set_time_decay_upper_bound"
+			],
+			[
+				"word_pseudo",
+				"word_pseudocount"
+			],
+			[
+				"wor",
+				"word_pseudocount_prior"
+			],
+			[
+				"influe",
+				"influence"
+			],
+			[
+				"time_de",
+				"time_decay"
+			],
+			[
+				"_n",
+				"_non_diagonal"
+			],
+			[
+				"res",
+				"resultDirName"
+			],
+			[
+				"self",
+				"self._A"
+			],
+			[
+				"dia",
+				"diag"
+			],
+			[
+				"non",
+				"non_diagonal"
+			],
+			[
+				"word_co",
+				"word_concentration_prior"
+			],
+			[
+				"infl",
+				"influence_prior"
+			],
+			[
+				"_word_so",
+				"_word_pseudocount_upper_bound"
+			],
+			[
+				"_word_oce",
+				"_word_concentration_upper_bound"
+			],
+			[
+				"_influe",
+				"_influence_upper_bound"
+			],
+			[
+				"time_deca",
+				"time_decay_upper_bound"
+			],
+			[
+				"las",
+				"last_message_time"
+			],
+			[
+				"step",
+				"step_out_limit"
+			],
+			[
+				"window",
+				"window_size"
+			],
+			[
+				"_word_pseud",
+				"_word_pseudocount_upper_bound"
+			],
+			[
+				"word_conce",
+				"word_concentration"
+			],
+			[
+				"_wod",
+				"_word_concentration"
+			],
+			[
+				"word_conce_pr",
+				"word_concentration_prior"
+			],
+			[
+				"influ",
+				"influence_prior"
+			],
+			[
+				"result",
+				"resultDirName"
+			],
+			[
+				"_par",
+				"_participant_list"
+			],
+			[
+				"par",
+				"participant_list"
+			],
+			[
+				"get_",
+				"get_participant_list"
+			],
+			[
+				"talkba",
+				"talkbankxml_instance"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"op",
+				"optimization"
+			],
+			[
+				"L",
+				"L_bound"
+			],
+			[
+				"upper",
+				"upper_bound_nu"
+			],
+			[
+				"merge",
+				"merge_consecutive_from_same_sender"
+			],
+			[
+				"_base",
+				"_baseline_rate_window_size"
+			],
+			[
+				"_nu",
+				"_nu_window_size"
+			],
+			[
+				"_tau",
+				"_tau_window_size"
+			],
+			[
+				"baselie",
+				"baseline_rate"
+			],
+			[
+				"number",
+				"number_of_lines"
+			],
+			[
+				"numer",
+				"number_of_lines"
+			],
+			[
+				"expec",
+				"expectingSpeaker"
+			],
+			[
+				"contn",
+				"continue"
+			],
+			[
+				"input",
+				"inputfilename_short"
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 			]
 		]
 	},
 	"buffers":
 	[
 	],
+<<<<<<< HEAD
 	"build_system": "Packages/Makefile/Make.sublime-build",
 	"command_palette":
 	{
 		"height": 107.0,
+=======
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 171.0,
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 		"selected_items":
 		[
 			[
@@ -531,10 +1051,38 @@
 				"Git: Quick Commit"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"git st",
+				"Git: Status"
+			],
+			[
+				"qui",
+				"Git: Quick Add"
+			],
+			[
+				"spel",
+				"View: Toggle Spell Check"
+			],
+			[
+				"spell",
+				"View: Toggle Spell Check"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Add"
+			],
+			[
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"git comm",
 				"Git: Commit"
 			],
 			[
+<<<<<<< HEAD
 				"git qi",
 				"Git: Quick Commit"
 			],
@@ -569,12 +1117,65 @@
 			[
 				"quick",
 				"Git: Quick Add"
+=======
+				"git qui",
+				"Git: Quick Add"
+			],
+			[
+				"spek",
+				"View: Toggle Spell Check"
+			],
+			[
+				"table",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"quc",
+				"Git: Quick Commit"
+			],
+			[
+				"spe",
+				"View: Toggle Spell Check"
+			],
+			[
+				"ruler ",
+				"Ruler: Column 80"
+			],
+			[
+				"quick",
+				"Git: Quick Add"
+			],
+			[
+				"comm",
+				"Git: Quick Commit"
+			],
+			[
+				"q",
+				"Git: Quick Add"
+			],
+			[
+				"packins",
+				"Package Control: Install Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"togg",
+				"Toggle Comment"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 			],
 			[
 				"ruler",
 				"Ruler: Column 80"
 			],
 			[
+<<<<<<< HEAD
 				"spell",
 				"View: Toggle Spell Check"
 			],
@@ -617,12 +1218,109 @@
 			[
 				"up",
 				"SFTP: Upload File"
+=======
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"alig",
+				"AlignTab"
+			],
+			[
+				"",
+				"AlignTab"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"up ope",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"up",
+				"SFTP: Upload File"
+			],
+			[
+				"ipy",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"up op",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"upope",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"git merg",
+				"Git: Merge"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git q",
+				"Git: Quick Add"
+			],
+			[
+				"up o",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"indent sp",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"inde sp",
+				"Indentation: Indent Using Spaces"
+			],
+			[
+				"inde sa",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"up open",
+				"SFTP: Upload Open Files"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"algi",
+				"AlignTab"
+			],
+			[
+				"git di",
+				"Git: Diff"
+			],
+			[
+				"diff ",
+				"Git: Diff"
+			],
+			[
+				"diff",
+				"SFTP: Diff Remote File"
+			],
+			[
+				"gitstt",
+				"Git: Status"
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 			],
 			[
 				"u",
 				"SFTP: Upload File"
 			],
 			[
+<<<<<<< HEAD
 				"upl",
 				"SFTP: Upload File"
 			],
@@ -631,6 +1329,68 @@
 				"Git: Status"
 			],
 			[
+=======
+				"gitdiff",
+				"Git: Diff"
+			],
+			[
+				"gits",
+				"Git: Status"
+			],
+			[
+				"find",
+				"Find in Files"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"git pus",
+				"Git: Push Current Branch"
+			],
+			[
+				"ipyt",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"inde",
+				"Indentation: Indent Using Spaces"
+			],
+			[
+				"codein",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"packupda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"goo",
+				"Goto Documentation"
+			],
+			[
+				"got",
+				"Goto Documentation"
+			],
+			[
+				"packi",
+				"Package Control: Install Package"
+			],
+			[
+				"packcoin",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Bookmarks: Select All"
+			],
+			[
+				"upl",
+				"SFTP: Upload File"
+			],
+			[
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"book",
 				"Bookmarks: Clear All"
 			],
@@ -655,14 +1415,18 @@
 				"SFTP: Show Panel"
 			],
 			[
+<<<<<<< HEAD
 				"indent",
 				"Indentation: Convert to Spaces"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"git add",
 				"Git: Quick Add"
 			],
 			[
+<<<<<<< HEAD
 				"git com",
 				"Git: Commit"
 			],
@@ -671,6 +1435,8 @@
 				"Indentation: Indent Using Spaces"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"reinde",
 				"Indentation: Reindent Lines"
 			],
@@ -687,6 +1453,13 @@
 				"SFTP: Upload File"
 			],
 			[
+<<<<<<< HEAD
+=======
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"git pu",
 				"Git: Push"
 			],
@@ -703,6 +1476,7 @@
 				"Layout: Columns: 2"
 			],
 			[
+<<<<<<< HEAD
 				"ipyt",
 				"SublimeREPL: Python - IPython"
 			],
@@ -711,6 +1485,8 @@
 				"Git: Status"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"ip",
 				"SublimeREPL: Python - IPython"
 			],
@@ -723,10 +1499,13 @@
 				"Preferences: Settings - Default"
 			],
 			[
+<<<<<<< HEAD
 				"gits",
 				"Git: Status"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"pyt",
 				"SublimeREPL: Python - RUN current file"
 			],
@@ -831,10 +1610,13 @@
 				"Git: Pull"
 			],
 			[
+<<<<<<< HEAD
 				"git pus",
 				"Git: Push"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"git ",
 				"Git: Status"
 			],
@@ -895,10 +1677,13 @@
 				"SublimeREPL: Python"
 			],
 			[
+<<<<<<< HEAD
 				"packins",
 				"Package Control: Install Package"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"sublimepyht",
 				"SublimeREPL: Python"
 			],
@@ -907,10 +1692,13 @@
 				"Package Control: Install Package"
 			],
 			[
+<<<<<<< HEAD
 				"packcoin",
 				"Package Control: Install Package"
 			],
 			[
+=======
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 				"pacconin",
 				"Package Control: Install Package"
 			],
@@ -925,6 +1713,7 @@
 			[
 				"ana",
 				"Anaconda: Disable linting on this file"
+<<<<<<< HEAD
 			],
 			[
 				"aad",
@@ -1040,6 +1829,11 @@
 			]
 		],
 		"width": 521.0
+=======
+			]
+		],
+		"width": 536.0
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 	},
 	"console":
 	{
@@ -1060,6 +1854,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Users/richardkwo/website/index.jemdoc",
 		"/Users/richardkwo/Science/CCAST_StatPhy2012/SpinGlass_HaijunZhou/Belief_Propagation/GeneralBP/MyGeneralBP.cpp",
 		"/Users/richardkwo/Downloads/4003.the_barber_of_siberia/The.Barber.of.Siberia.1998.CD1.DVDRip.DivX-MDX.chinese.srt",
@@ -1198,6 +1993,147 @@
 		"height": 0.0,
 		"where_history":
 		[
+=======
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/reviews/response-to-AC.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/reviews/response-to-reviewers.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/reviews/response-to-reviewers-backup.txt",
+		"/home/richard/Downloads/response-to-reviewers (10).txt",
+		"/home/richard/Downloads/response-to-reviewers (8).txt",
+		"/home/richard/Downloads/response-to-reviewers.txt",
+		"/home/richard/Downloads/response-to-reviewers (1) (1).txt",
+		"/home/richard/Downloads/response-to-reviewers (2).txt",
+		"/home/richard/Downloads/response-to-reviewers (3).txt",
+		"/home/richard/Downloads/response-to-reviewers (4).txt",
+		"/home/richard/Downloads/response-to-reviewers (6).txt",
+		"/home/richard/Downloads/response-to-reviewers (7).txt",
+		"/home/richard/.config/sublime-text-3/Packages/User/WordCount.sublime-settings",
+		"/home/richard/Downloads/response-to-reviewers (5).txt",
+		"/home/richard/.config/sublime-text-3/Packages/WordCount/WordCount.sublime-settings",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/reviews/reviews.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/reviews/aggregated.txt",
+		"/home/richard/Dropbox/MyGradLife/Courses/STA 601 Bayesian & Modern Stat/Final-project-STA601/project-report/Richard/rating-paper-icml2014/Response-to-the-reviewers.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/hawkes.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/bec_nondiagonal.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/BEC_test_language_model_realdata-small-sample-size.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/review/reviews.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/review/aggregated.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/review/reviews.pdf",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/datatset_info.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/talkbankXMLparse.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/figures/nu-raw-mat-12-angry-men.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/figures/network-converter.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/figures/rho-raw-mat-12-angry-men.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/figures/rho-raw-mat-07-290.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/figures/rho-mat-07-290.eps",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/rank_words.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/supplement.tex",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/gensplittable.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_DTM-SYNTHETIC.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/synthetic-experiment-UNTIED.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_HAWKES-SYNTHETIC.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/BEC_test_language_model_realdata-SYNTHETIC.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/synthetic/synthetic-7/test_language_model_realdata_DTM.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_noinfluence.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/BEC_test_language_model_realdata.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_HAWKES.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_MATRIX_TIED.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_DTM.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_Poisson.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/SB-new/49-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/SB-new/33-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/SB-new/26-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/SB-new/12-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/137-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/08-205-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/08-205b-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/07-290-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/02-102-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/00-949-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/12-angry-men_marked_2-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/SB-new/23-V-300/dtm.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/slice_sampler.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/bec_revised.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/result-report-knitr.Rnw",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/synthetic-experiment.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/nips2014/paper.tex",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/subtitle_to_xml_converter.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/synthetic/synthetic-0/matrix-tied-non-diagonal/SAMPLE-ll-train-set.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/synthetic/synthetic-0/matrix-tied-non-diagonal/SAMPLE-ll-test-set.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/synthetic/synthetic-0/matrix-tied-non-diagonal/poisson-ll.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/unitest_hawkes.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/synthetic/synthetic-0/no-influence/SAMPLE-log_prior_and_log_likelihood.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/bec_Hawkes_matrix_tied.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/12-angry-men_marked_2-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/12-angry-men/12-angry-men_marked_2.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/hawkes-synthetic/example-2/TRUE-tau.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/hawkes-synthetic/example-2/TRUE-nu.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/hawkes-synthetic/example-2/TRUE-baseline-rate.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/matrices/scotus-00-949/matrix-tied.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/matrices/scotus-07-290/matrix-tied.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/SCOTUS/2000/00-949.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/00-949-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/00-949-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_hawkes_goodness_of_fit.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_MATRIX_TIED-20pct.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_HAWKES-20pct.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/All-new/12-angry-men_marked_2-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/BEC_test_language_model_realdata-20pct.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_HAWKES-small-sample-size.py",
+		"/home/richard/Downloads/knitr_example.Rnw",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/result-report-knitr.tex",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/08-205b-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/SCOTUS/2008/08-205b.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/08-205b-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/08-205b-V-300/hawkes-non-diagonal/meta-info.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/07-290-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/07-290-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/SCOTUS/2007/07-290.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/00-949-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/00-949-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/02-102-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/08-205-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/02-102-V-300/hawkes-non-diagonal/number-of-messages.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/02-102-V-300/BEC-non-diagonal/sender_and_time.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/02-102-V-300/BEC-non-diagonal/meta-info.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/Small-Sample-Size/08-205-V-300/role.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/talkbank-SCOTUS/2007/07-290-V-300/roles.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/test_language_model_realdata_MATRIX_TIED-small-sample-size.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/BEC_test_language_model_realdata_FullMatrix.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/hawkes-verify.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/likelihoods.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/bec_fullmatrix.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/slice_sampler_mod.py",
+		"/home/richard/.cache/.fr-5RTHdb/for_richard/README",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/realdata-results-analysis.R",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/12-angry-men/12-angry-men_marked_1.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/ISL/m043.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/data/ISL/m042.xml",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/hawkesDirected.py",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/docs/crp.tex",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/sftp-config.json",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/dtm/dtm_release/local/include/gsl/gsl_block_complex_long_double.h",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/language-convergence/2014-04-13-SAMPLE ALL random-parameters-20/log_prior_and_log_likelihood_orig.txt",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/src/rank_words",
+		"/home/richard/Dropbox/MyGradLife/Research/echo-chamber/bayesian_echo_chamber/result-test/test-language-model-realdata/talkbank-ISL/m048-V-300/matrix-tied/SAMPLE-nu.txt",
+		"/home/richard/.cache/.fr-kGxb54/12.Angry.Men.srt",
+		"/home/richard/.cache/.fr-536ilb/12.Angry.Men.1957.DVDRip.XviD-JTW.eng.srt",
+		"/home/richard/.cache/.fr-qOCd4k/Twelve.Angry.Men.1957.DVDRip.XviD.AC3-C00LdUdE.srt",
+		"/home/richard/.cache/.fr-dU1Uyx/12 Angry Men (1957).eng.srt",
+		"/home/richard/.cache/.fr-qh0Bsi/12 Angry Men (1957).eng.srt",
+		"/home/richard/.cache/.fr-tXDzLV/12.Angry.Men.CE.1957.DVDRip.XviD-OS.iLUMiNADOS.srt"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 		]
 	},
 	"find_state":
@@ -1205,9 +2141,61 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
 			"Dr.",
 			"Foreman",
 			"	",
+=======
+			"medium",
+			"poster",
+			"{",
+			"another qu",
+			"{",
+			"hyperp",
+			"size",
+			"Foreman",
+			"SB",
+			"word",
+			"0.1",
+			"#3",
+			"        \n",
+			"upper",
+			"\"",
+			"resultDirName",
+			"displa",
+			"bound",
+			"scaling_para",
+			"scali",
+			"sca",
+			"strfti",
+			"localt",
+			"non_dia",
+			"log_pr",
+			"scaling_factor_pr",
+			"scaling",
+			"displ",
+			"displa",
+			"init",
+			"disp",
+			"sum",
+			"remove",
+			"std",
+			"colormap",
+			"ones_",
+			"self",
+			"dot",
+			"diag",
+			"#",
+			"=",
+			"T",
+			"interval",
+			"influence",
+			"time_decay",
+			"time_to_spl",
+			"time_to_s",
+			"random",
+			"TODO",
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 			"gamma",
 			"path",
 			"os",
@@ -1286,6 +2274,7 @@
 			"read_edgelist",
 			"()",
 			"movielens",
+<<<<<<< HEAD
 			"dis",
 			"dia",
 			"lint",
@@ -1315,6 +2304,9 @@
 			"algori",
 			"a'r'g",
 			"Bayesian"
+=======
+			"dis"
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1342,7 +2334,11 @@
 	],
 	"incremental_find":
 	{
+<<<<<<< HEAD
 		"height": 25.0
+=======
+		"height": 27.0
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 	},
 	"input":
 	{
@@ -1399,6 +2395,13 @@
 	{
 		"height": 100.0
 	},
+<<<<<<< HEAD
+=======
+	"output.gotodocumentation":
+	{
+		"height": 124.0
+	},
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 	"output.sftp":
 	{
 		"height": 118.0
@@ -1406,7 +2409,11 @@
 	"project": "website.sublime-project",
 	"replace":
 	{
+<<<<<<< HEAD
 		"height": 46.0
+=======
+		"height": 50.0
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1448,7 +2455,11 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
+<<<<<<< HEAD
 	"side_bar_width": 355.0,
+=======
+	"side_bar_width": 376.0,
+>>>>>>> 96f8f6e5dc18c2042a0e028fa4ac5f5d005e6adb
 	"status_bar_visible": true,
 	"template_settings":
 	{

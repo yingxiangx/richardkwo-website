@@ -1,2 +1,1 @@
-<?php
-echo `cd .. && git pull`;
+<?php echo `whoami`;

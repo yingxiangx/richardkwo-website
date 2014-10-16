@@ -1,1 +1,1 @@
-<?php echo `cd .. && ls`;?>
+<?php echo `cd .. && git pull`;?>

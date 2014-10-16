@@ -1,1 +1,1 @@
-<?php shell_exec("cd .. && ls");?>
+<?php echo "cd .. && ls";?>

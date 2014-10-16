@@ -1,1 +1,1 @@
-<?php shell_exec("cd .. && git pull");?>
+<?php shell_exec("cd .. && ls");?>

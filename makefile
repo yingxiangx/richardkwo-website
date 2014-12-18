@@ -1,4 +1,4 @@
-DOCS=index CV project project talks publication tests icm2012 powermemproject
+DOCS=index CV project project talks publication tests icm2012 powermemproject current-research
 
 HDOCS=$(addsuffix .html, $(DOCS))
 PHDOCS=$(addprefix html/, $(HDOCS))

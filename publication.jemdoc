@@ -2,9 +2,12 @@
 # jemdoc: analytics{UA-36013347-1}
 = Publications
 
+== Submitted
+
+. *Fangjian Guo*,  Charles Blundell, Hanna Wallach and Katherine A. Heller. [http://arxiv.org/abs/1411.2674 The Bayesian Echo Chamber: Modeling Influence in Conversations].
+
 == Working Papers
 
-. *Fangjian Guo*, Charles Blundell, Hanna Wallach and Katherine A. Heller. The Bayesian Echo Chamber.
 . *Fangjian Guo*, Zimo Yang, Zhidan Zhao and Tao Zhou. [papers/PowerMemPaper.pdf The relation between memory and power-law exponent].
 . *Fangjian Guo* and David Dunson. Modeling and calibrating ratings across categories.
 

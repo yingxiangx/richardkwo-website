@@ -40,12 +40,12 @@ Durham NC 27708-0129
 
 == Research Interests
 - *Machine learning* in general --- [current-research.html a summary of current research.]
-- *Stochastic process*
-- *Bayes nonparametrics*
+- *Stochastic processes*
+- *Natural Language Processing*
 - *Scalable Bayesian inference*
-- The connection between learning and *Statistical physics* (/e.g. Monte Carlo, Ising and graphical models, Belief propagation, etc./)
+- *Bayes Nonparametrics*
 - How *humans* organize, interact and behave (/e.g. social networks, human dynamics, etc./) 
-
+- The connection between learning and *Statistical physics* (/e.g. Monte Carlo, Ising and graphical models, Belief propagation, etc./)
 
 
 == Short Bio
@@ -62,6 +62,8 @@ While being a CS major, physics has also been my long-time fascination. I am int
 == What's new
 
 {{<img src="baby_blue_devil.jpg" align="right" width=150>}}
+
+- \[2015\/01\]~~~Our [http://arxiv.org/abs/1411.2674 conversation modeling paper] gets into [http://www.aistats.org/ AISTATS 2015]!
 
 - \[2014\/12\]~~~Looking for a research intern over the upcoming summer. Interested in R&D positions in machine learning, NLP and analytics. This is a brief summary of my [current-research.html ongoing research]. 
 

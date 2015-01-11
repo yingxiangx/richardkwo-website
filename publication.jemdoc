@@ -2,10 +2,6 @@
 # jemdoc: analytics{UA-36013347-1}
 = Publications
 
-== Submitted
-
-. *Fangjian Guo*,  Charles Blundell, Hanna Wallach and Katherine A. Heller. [http://arxiv.org/abs/1411.2674 The Bayesian Echo Chamber: Modeling Influence in Conversations].
-
 == Working Papers
 
 . *Fangjian Guo*, Zimo Yang, Zhidan Zhao and Tao Zhou. [papers/PowerMemPaper.pdf The relation between memory and power-law exponent].
@@ -13,6 +9,8 @@
 
 == Peer Reviewed
 
+. *Fangjian Guo*,  Charles Blundell, Hanna Wallach and Katherine A. Heller. [http://arxiv.org/abs/1411.2674 The Bayesian Echo Chamber: Modeling Influence in Conversations].\n
+accepted to /AISTATS 2015/.
 . *Fangjian Guo*, Zimo Yang, and Tao Zhou. [http://dx.doi.org/10.1016/j.physa.2013.03.025 Predicting link directions via a recursive subgraph-based ranking].\n
 /Physica A: Statistical Mechanics and its Applications/, Volume 392, Issue 16, 15 August 2013.
 

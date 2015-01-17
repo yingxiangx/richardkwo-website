@@ -8,7 +8,7 @@ I am working on machine learning in the following aspects.
 
 1. Modeling, understanding and predicting human behaviors, especially the interplay among structure, dynamics and contents in social processes, including online/offline communications, social networking, tagging, rating, etc. Testing sociological theories with statistical models and large-scale data. Discovering and quantifying predictive patterns with machine learning techniques and applying them to recommendation, advertising and information retrieval.
 
-In a recent work (currently under review) with my collaborators,  we model the "linguistic accommodation" phenomenon for extracting influence relations in conversations and group meetings. The model produces nuanced findings from political science and movie transcripts data. The preprint is available from [http://arxiv.org/abs/1411.2674].
+In a recent work (accepted to AISTATS 2015) with my collaborators,  we model the "linguistic accommodation" phenomenon for extracting influence relations in conversations and group meetings. The model produces nuanced findings from political science and movie transcripts data. The preprint is available from [http://arxiv.org/abs/1411.2674].
 
 2. Fast inference for sparse graphical models. 
 

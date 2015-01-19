@@ -1,0 +1,164 @@
+% rubber: set program xelatex
+
+\documentclass[11pt, letterpaper,sans]{moderncv}
+
+\usepackage{graphicx}
+\usepackage{multibib}
+\newcites{Pub,Workshop,Working}{{Peer Reviewed},{Workshop Papers}, {Working papers}}
+
+% moderncv themes
+\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, 
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% Configure AMS
+\usepackage{amsmath}
+\usepackage{amsfonts}
+
+% verbatim
+\usepackage{verbatim}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Fangjian}
+\familyname{Guo}
+
+% \address{Department of Computer Science, Duke University}{Durham, NC 27708}    % optional, remove the line if not wanted
+\mobile{(919) 599-8219}                    % optional, remove the line if not wanted
+
+\email{richardkwo@gmail.com}                      % optional, remove the line if not wanted
+\homepage{richardkwo.net} 
+\social[github]{richardkwo} 
+\social[linkedin]{richardkwo}
+ 
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% font style
+\newcommand{\dia}{$ \diamond \  $}
+\newcommand{\bf}[1]{\textbf{#1}}
+\newcommand{\it}[1]{\textit{#1}}
+% font style
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Personal Information}
+\cvline{Name}{Richard (Fangjian) Guo}
+\cvline{Homepage}{richardkwo.net}
+\cvline{Email}{guo@cs.duke.edu}
+\cvline{Address}{Department of Computer Science, Duke University \newline LSRC Building D125, 308 Research Dr\newline Campus Box 90129 \newline Durham NC 27708}
+
+\section{Education}
+\cventry{2013 -- present}{\bf{Duke University}, Durham, NC, USA}{}{}{}{PhD student in machine learning, Department of Computer Science}
+\cvline{}{Advisor: Katherine A.~Heller ~~~ Committee Members: David B.~Dunson, Ronald Parr}
+\cvline{}{GPA: \bf{3.97}/4.00}
+\cventry{2009 -- 2013}{\bf{University of Electronic Science and Technology of China}, Chengdu, P.R.China}{}{}{}{B.Eng. in computer science and technology, graduated with \textbf{highest distinction}}
+\cvline{}{Advisor: Tao Zhou ~~ Thesis: \textit{A Statistical Analysis of Diverging Moments.}}
+\cvline{}{GPA: \bf{3.89}/4.00  ~~~ Ranking: \textbf{1}/110}
+
+\section{Research Interests}
+\cvline{Modeling}{Bayesian latent variable models; Bayesian nonparameteric models for hierarchical and network structures; Stochastic processes; Natural language processing; Graphical models.}
+\cvline{Inference}{Scalable Bayesian inference; MCMC; Belief propagation}
+\cvline{Motivation}{Modeling, understanding and predicting human behaviors, especially the interplay among structure, dynamics and contents in social processes, e.g.~online/offline communications, social networking, tagging and rating. Testing sociological theories with statistical models and large-scale data. Discovering and quantifying predictive patterns with machine learning techniques and applying them to recommendation, advertising and information retrieval.}
+\cvline{Theory}{Connecting statistical physics and machine learning, especially in graphical models and stochastic processes.}
+
+\section{Research Experience}
+\cventry{\scriptsize{Nov~2014 -- present}}{\bf{Improving Ensemble Learning Algorithms with Repulsive Processes}}{\newline advised by \it{Prof.~Katherine Heller}}{}{}{Duke University}
+\cventry{\scriptsize{Nov~2014 -- present}}{\bf{An EM-BP Framework for Recommendation Systems}}{\newline advised by \it{Prof.~Henry Pfister}}{}{}{Duke University}
+\cvline{}{\small{Developing efficient and accurate rating prediction algorithms utilizing the sparsity of the observed matrix.}}
+\cventry{\scriptsize{April~2014 -- Oct~2014}}{\bf{Modeling Influence in Conversations}}{\newline advised by \it{Prof.~Katherine Heller and Prof.~Hanna Wallach}}{}{}{Duke University}
+\cvline{}{\small{People's language usage tend to drift towards to those influential speakers in a conversation, which is a phenomenon known as ``linguistic accommodation''. We discover the latent influence network by modeling the evolution of language usage over time. Our model finds interesting patterns underlying political science and movie subtitle data.}}
+\cventry{\scriptsize{Dec~2013 -- Jan~2014}}{\bf{Modeling and Calibrating Ratings across Categories}}{\newline advised by \it{Prof. David Dunson}}{}{}{Duke University}
+\cvline{}{\small{In online rating systems, users tend to rate items with different internal standards across categories. By modeling such categorical dependence, ratings can be calibrated accordingly to remove the unfair bias and increase the diversity of recommendation systems.}}
+\cvline{}{\dia Proposed a Bayesian probit model to characterize the categorical dependence allowing for overlapping categories.
+\newline \dia Applied model to movie rating data.}
+\cventry{\scriptsize{Dec~2012 -- Feb~2013}}{\bf{Growth Trajectories and Causal Mechanisms of Evolution for Social Networks}}{\newline advised by \it{Prof. Jonathan Zhu}}{}{}{Web Mining Lab, City University of Hong Kong}
+\cvline{}{\dia Proposed a branching-process model to explain the dynamics of network growth.}
+%%
+\cventry{\scriptsize{Aug~2012 -- May~2013}}{\bf{The Memory of Power-law Series}}{\newline advised by \it{Prof. Tao Zhou}}{}{}{Web Sciences Center, School of Computer Science and Engineering, UESTC}
+\cvline{}{\small{Power-law distribution emerges in empirical data from human activities and complex systems. We study how power-law naturally imposes a constraint on the memory (first-order autocorrelation) of random series, which may explain why most of empirical power-law series are found to be positively autocorrelated. }}
+\cvline{}{\dia Derived analytically the non-trivial bounds for the memory of permuted i.i.d. power-law sequence as a function of the exponent.
+\newline \dia Analyzed the asymptotic behavior of diverging moments with approximation methods.
+\newline\dia Validated theoretical results with both numerical simulations and empirical data.}
+%%
+\cventry{\scriptsize{July~2012 -- Aug~2012}}{\bf{Inverse Ising Problem with Pseudolikelihood Maximization}}{\newline advised by \it{Prof. Haijun Zhou}}{}{}{Institute of Theoretical Physics, Chinese Academy of Sciences}
+\cvline{}{\dia Implemented the algorithm for learning interactions by maximizing pseudolikelihood.
+\dia Evaluated the algorithm by feeding samples from Monte Carlo simulation with different sizes and temperatures.}
+%%
+\cventry{\scriptsize{Feb~2012 -- June~2012}}{\bf{Predicting Link Directions via a Recursive Subgraph-based Ranking}}{\newline advised by \it{Prof. Tao Zhou}}{}{}{Web Sciences Center, School of Computer Science and Engineering, UESTC}
+\cvline{}{\small{For incomplete directed networks, ranking is applied to the problem of predicting link directions by using other links. We propose a solution by first ranking nodes in a specific order and then predicting these links as stemming from a lower-ranked node towards a higher-ranked one.}}
+\cvline{}{\dia Collaborated with coauthors to develop the ranking algorithm.
+\newline \dia Analyzed the performance of the algorithm with empirical data.}
+
+\section{Academic Activities}
+\cventry{Oct 2014}{The 5th Annual Text as Data Workshop}{}{}{}{Kellogg School of Management, Northwestern University, Chicago.}
+\cventry{July 2012}{CCAST summer school on statistical physics and complex systems}{}{}{}{Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing.}
+
+\section{Graduate Coursework}
+\cvline{Fall 2014}{\dia STA 711: Probability \& Measure Theory 
+\newline \dia CPS 527: Computer Vision
+\newline \dia ECE 590: Graphical Models and Inference }
+
+\cvline{Spring 2014}{\dia CPS 590: Advanced Machine Learning 
+\newline \dia STA 960: Statistical Stochastic Processes
+\newline \dia STA 732: Statistical Inference}
+
+\cvline{Fall 2013}{\dia STA 601: Bayesian and Modern Statistics
+\newline \dia STA 561: Machine Learning
+\newline \dia CPS 530: Design and Analysis of Algorithms}
+
+\section{Teaching}
+\cvline{Fall 2014}{TA \& Recitation, STA 561: Probabilistic Machine Learning (graduate)}
+\cvline{Spring 2014}{TA, CPS 270: Introduction to Artificial Intelligence (undergraduate)}
+
+
+\section{Honors and Awards}
+\cventry{2013 -- 2015}{\bf{Duke Graduate Fellowship}}{}{}{}{}
+\cvline{}{\small{\textsc{Duke University}}}
+\cventry{2012}{\bf{Outstanding Winner} in 2012 Interdisciplinary Contest in Modeling \small{(0.3\%)}}{}{}{}{}
+\cvline{}{\small{\textsc{COMAP, sponsored by SIAM, NSA and INFORMS}}}
+\cventry{2012}{\bf{Outstanding Student} of the University \small{(0.2\%)}}{}{}{}{\textsc{University of Electronic Science and Technology of China}}
+\cventry{2009 -- 2011}{\bf{National Scholarship}}{}{}{}{\textsc{Ministry of Education of China}}
+
+\section{Skills}
+\cvline{Programming}{C/C++, Python, MATLAB, R}
+\cvline{Typesetting}{\LaTeX{}}
+\cvline{Language}{English (fluent), Chinese (native)}
+
+\closesection{}                   % needed to renewcommands
+\renewcommand{\listitemsymbol}{-} % change the symbol for lists
+
+%  Publications from a BibTeX file
+
+\section{Publications}
+\nocitePub{aistat2015, physicaa}
+\bibliographystylePub{plain}
+\bibliographyPub{GuoPublications}
+
+\nociteWorking{embp, ratingpaper, powerlaw}
+\bibliographystyleWorking{plain}
+\bibliographyWorking{GuoPublications}
+
+\nociteWorkshop{textasdata2014}
+\bibliographystyleWorkshop{plain}
+\bibliographyWorkshop{GuoPublications}
+
+\clearpage
+
+\end{document}
+
+
+%% end of file `template_en.tex'.
+
+
+

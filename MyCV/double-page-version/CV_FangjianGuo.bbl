@@ -1,0 +1,29 @@
+\begin{thebibliography}{1}
+
+\bibitem{Guo2012}
+\textbf{Fangjian Guo}, Zimo Yang, and Tao Zhou.
+\newblock \weblink[Predicting link directions via a recursive subgraph-based ranking.]{http://dx.doi.org/10.1016/j.physa.2013.03.025}
+\newblock {\em Physica A}, 392(16), 2013.
+
+\bibitem{Guo2012a}
+\textbf{Fangjian Guo}, Jiang Su, and Jian Gao.
+\newblock \weblink[Finding conspirators in the network via machine learning.]{http://www.richardkwo.net/papers/ICM2012Paper.pdf}
+\newblock {\em The UMAP Journal}, 33(3), 2012. \textbf{(Outstanding Winner paper for MCM/ICM 2012)}
+
+
+\bibitem{Guo2012c}
+\textbf{Fangjian Guo} and Tao Zhou.
+\newblock Memory constraints of power-law series.
+\newblock {(in preparation)}.
+
+\bibitem{Guo2012d}
+\textbf{Fangjian Guo} and David Dunson.
+\newblock Modeling and calibrating ratings across categories.
+\newblock {(in preparation)}.
+
+\bibitem{Guo2014a}
+\textbf{Fangjian Guo}, Katherine Heller, Charles Blundell and Hanna Wallach.
+\newblock The Bayesian Echo Chamber.
+\newblock {(in preparation)}.
+
+\end{thebibliography}

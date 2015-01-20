@@ -2,9 +2,9 @@
 % Encoding: UTF-8
 
 
-@Article{aistat2015,
+@Article{Guo2015,
   Title                    = {The Bayesian Echo Chamber: Modeling influence in conversations},
-  Author                   = {\textbf{Fangjian Guo} and Charles Blundell and Hanna Wallach and Katherine A.~Heller},
+  Author                   = {Fangjian Guo and Charles Blundell and Hanna Wallach and Katherine A.~Heller},
   Journal                  = {AISTATS},
   Year                     = {2015},
 
@@ -12,9 +12,9 @@
   Timestamp                = {2015.01.17}
 }
 
-@Conference{textasdata2014,
+@Conference{Guo2014,
   Title                    = {The Bayesian Echo Chamber: modeling power and influence with mutually exciting processes and dynamic language models},
-  Author                   = {\textbf{Fangjian Guo} and Charles Blundell and Hanna Wallach and Katherine A.~Heller},
+  Author                   = {Fangjian Guo and Charles Blundell and Hanna Wallach and Katherine A.~Heller},
   Booktitle                = {The 5th Annual Text as Data Conference},
   Year                     = {2014},
 
@@ -27,31 +27,31 @@
 
 @Unpublished{ratingpaper,
   Title                    = {Bayesian multiplicative calibration models for recommender systems},
-  Author                   = {\textbf{Fangjian Guo} and David B.~Dunson},
+  Author                   = {Fangjian Guo and David B.~Dunson},
 
   Owner                    = {richard},
   Timestamp                = {2015.01.17}
 }
 
 @Unpublished{embp,
-  Title                    = {An EM--BP algorithm for matrix completion},
-  Author                   = {\textbf{Fangjian Guo} and Henry D.~Pfister},
+  Title                    = {An EM-BP algorithm for matrix completion},
+  Author                   = {Fangjian Guo and Henry D.~Pfister},
 
   Owner                    = {richard},
   Timestamp                = {2015.01.17}
 }
 
-@Unpublished{powerlaw,
+@Unpublished{,
   Title                    = {The relation between memory and power-law exponent},
-  Author                   = {\textbf{Fangjian Guo} and Zimo Yang and Zhidan Zhao and Tao Zhou},
+  Author                   = {Fangjian Guo and Zimo Yang and Zhidan Zhao and Tao Zhou},
 
   Owner                    = {richard},
   Timestamp                = {2015.01.17}
 }
 
-@Article{physicaa,
+@Article{Guo2013,
   Title                    = {Predicting link directions via a recursive subgraph-based ranking},
-  Author                   = {\textbf{Fangjian Guo} and Zimo Yang and Tao Zhou},
+  Author                   = {Fangjian Guo and Zimo Yang and Tao Zhou},
   Journal                  = {Physica A: Statistical Mechanics and its Applications},
   Year                     = {2013},
   Number                   = {16},

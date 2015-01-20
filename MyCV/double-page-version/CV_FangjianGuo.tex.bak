@@ -1,13 +1,14 @@
 % rubber: set program xelatex
 
-\documentclass[11pt, letterpaper,sans]{moderncv}
+\documentclass{moderncv}
 
 \usepackage{graphicx}
-\usepackage{multibib}
-\newcites{Pub,Workshop,Working}{{Peer Reviewed},{Workshop Papers}, {Working Papers}}
+
+\usepackage[usenames,dvipsnames]{xcolor}
 
 % moderncv themes
-\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, 
+\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
 
 % character encoding
 \usepackage[utf8]{inputenc}                   % replace by the encoding you are using
@@ -24,19 +25,27 @@
 \recomputelengths                             % required when changes are made to page layout lengths
 
 % personal data
-\firstname{Fangjian}
+\firstname{Fangjian~}
 \familyname{Guo}
 
-% \address{Department of Computer Science, Duke University}{Durham, NC 27708}    % optional, remove the line if not wanted
+\address{Department of Computer Science, Duke University}{Durham, NC 27708}    % optional, remove the line if not wanted
 \mobile{(919) 599-8219}                    % optional, remove the line if not wanted
-
+ %\phone{phone (optional)}                      % optional, remove the line if not wanted
+ %\fax{fax (optional)}                          % optional, remove the line if not wanted
 \email{richardkwo@gmail.com}                      % optional, remove the line if not wanted
-\homepage{richardkwo.net} 
-\social[github]{richardkwo} 
-\social[linkedin]{richardkwo}
- 
+ %\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+% \photo[64pt]{RichardPhoto.eps}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{``To be, or not to be, that is the question.'' \\ --- William Shakespeare}  
 \nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
 
+% Configure CJK
+%\usepackage[boldfont,slantfont,CJKnumber]{xeCJK}
+%\punctstyle{CCT}
+%\setCJKmainfont[BoldFont={SimHei},ItalicFont={SimSun}]{KaiTi}
+%\setCJKfamilyfont{song}{SimSun}
+%\setCJKfamilyfont{hei}{SimHei}
+%\setCJKfamilyfont{kai}{KaiTi}
+%\setCJKfamilyfont{fangsong}{FangSong}
 
 % font style
 \newcommand{\dia}{$ \diamond \  $}
@@ -54,29 +63,26 @@
 \maketitle
 \section{Personal Information}
 \cvline{Name}{Richard (Fangjian) Guo}
-\cvline{Homepage}{richardkwo.net}
-\cvline{Email}{guo@cs.duke.edu}
-\cvline{Address}{Department of Computer Science, Duke University \newline LSRC Building D125, 308 Research Dr\newline Campus Box 90129 \newline Durham NC 27708}
+\cvline{Website}{\weblink[\textcolor{Blue}{richardkwo.net}]{http://richardkwo.net}}
+\cvline{GitHub}{\weblink[\textcolor{Blue}{github.com/richardkwo}]{https://github.com/richardkwo}}
+\cvline{Email}{\emaillink[\textcolor{Blue}{guo@cs.duke.edu}]{guo@cs.duke.edu}}
+\cvline{Phone}{(919) 599-8219}
+\cvline{Address}{Department of Computer Science, Duke University \newline LSRC Building D125, 308 Research Dr\newline Campus Box 90129 \newline Durham NC 27708-0129}
 
 \section{Education}
-\cventry{2013 -- present}{\bf{Duke University}, Durham, NC, USA}{}{}{}{2nd-year PhD student in machine learning, Department of Computer Science}
+\cventry{2013 -- present}{\bf{Duke University}, Durham, NC, USA}{}{}{}{PhD student in machine learning, Department of Computer Science}
 \cvline{}{Advisor: Katherine A.~Heller ~~~ Committee Members: David B.~Dunson, Ronald Parr}
-\cvline{}{GPA: \bf{3.97}/4.00}
+\cvline{}{GPA: \bf{3.95}/4.00}
 \cventry{2009 -- 2013}{\bf{University of Electronic Science and Technology of China}, Chengdu, P.R.China}{}{}{}{B.Eng. in computer science and technology, graduated with \textbf{highest distinction}}
 \cvline{}{Advisor: Tao Zhou ~~ Thesis: \textit{A Statistical Analysis of Diverging Moments.}}
 \cvline{}{GPA: \bf{3.89}/4.00  ~~~ Ranking: \textbf{1}/110}
 
 \section{Research Interests}
-\cvline{Modeling}{Bayesian latent variable models, Bayesian nonparameteric models for hierarchical and network structures, Stochastic processes, Graphical models, Natural language processing.}
-\cvline{Inference}{Scalable Bayesian inference, MCMC, Belief propagation}
+\cvline{Modeling}{Bayesian latent variable models; Bayesian nonparameteric models for hierarchical and network structures; Stochastic point processes; Dynamic language models;  Graphical models.}
+\cvline{Inference}{Scalable Bayesian inference via approximation or parallelization; MCMC.}
+\cvline{Motivation}{Modeling, understanding and predicting human behaviors, especially the interplay among structure, dynamics and contents in social processes, e.g.~online/offline communications, social networking, tagging and rating. Testing sociological theories with statistical models and large-scale data. Discovering and quantifying predictive patterns with machine learning techniques and applying them to recommendation, advertising and information retrieval.}
 \cvline{Theory}{Connecting statistical physics and machine learning, especially in graphical models and stochastic processes.}
-\cvline{Application}{Modeling, understanding and predicting human behaviors, especially the interplay among structure, dynamics and contents in social processes, e.g.~online/offline communications, social networking, tagging and rating. Testing sociological theories with statistical models and large-scale data. Discovering and quantifying predictive patterns with machine learning techniques and applying them to recommendation, advertising and information retrieval.}
-
-
 \section{Research Experience}
-\cventry{\scriptsize{Nov~2014 -- present}}{\bf{Improving Ensemble Learning Algorithms with Repulsive Processes}}{\newline advised by \it{Prof.~Katherine Heller}}{}{}{Duke University}
-\cventry{\scriptsize{Nov~2014 -- present}}{\bf{An EM-BP Framework for Recommendation Systems}}{\newline advised by \it{Prof.~Henry Pfister}}{}{}{Duke University}
-\cvline{}{\small{Developing efficient and accurate rating prediction algorithms utilizing the sparsity of the observed matrix.}}
 \cventry{\scriptsize{April~2014 -- Oct~2014}}{\bf{Modeling Influence in Conversations}}{\newline advised by \it{Prof.~Katherine Heller and Prof.~Hanna Wallach}}{}{}{Duke University}
 \cvline{}{\small{People's language usage tend to drift towards to those influential speakers in a conversation, which is a phenomenon known as ``linguistic accommodation''. We discover the latent influence network by modeling the evolution of language usage over time. Our model finds interesting patterns underlying political science and movie subtitle data.}}
 \cventry{\scriptsize{Dec~2013 -- Jan~2014}}{\bf{Modeling and Calibrating Ratings across Categories}}{\newline advised by \it{Prof. David Dunson}}{}{}{Duke University}
@@ -102,8 +108,7 @@
 \newline \dia Analyzed the performance of the algorithm with empirical data.}
 
 \section{Academic Activities}
-\cventry{Dec 2014}{NIPS 2014 Workshop on Networks: From Graphs to Rich Data}{}{}{}{Montreal, Quebec, Canada.}
-\cventry{Oct 2014}{The 5th Annual Text as Data Workshop}{}{}{}{Kellogg School of Management, Northwestern University, Chicago.}
+\cventry{Oct 2014}{The 5th Annual Text as Data Conference}{}{}{}{Kellogg School of Management, Northwestern University, Chicago.}
 \cventry{July 2012}{CCAST summer school on statistical physics and complex systems}{}{}{}{Institute of Theoretical Physics, Chinese Academy of Sciences, Beijing.}
 
 \section{Graduate Coursework}
@@ -130,7 +135,7 @@
 \cventry{2012}{\bf{Outstanding Winner} in 2012 Interdisciplinary Contest in Modeling \small{(0.3\%)}}{}{}{}{}
 \cvline{}{\small{\textsc{COMAP, sponsored by SIAM, NSA and INFORMS}}}
 \cventry{2012}{\bf{Outstanding Student} of the University \small{(0.2\%)}}{}{}{}{\textsc{University of Electronic Science and Technology of China}}
-\cventry{2009 -- 2011}{\bf{National Scholarship}}{}{}{}{\textsc{Ministry of Education of China}}
+\cventry{~2010 -- 2011 and 2009 -- 2010}{\bf{National Scholarship}}{}{}{}{\textsc{Ministry of Education of China}}
 
 \section{Skills}
 \cvline{Programming}{C/C++, Python, MATLAB, R}
@@ -139,23 +144,11 @@
 
 \closesection{}                   % needed to renewcommands
 \renewcommand{\listitemsymbol}{-} % change the symbol for lists
-
 %  Publications from a BibTeX file
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{GuoPublications}  
 
-\section{Publications}
-\nocitePub{aistat2015, physicaa}
-\bibliographystylePub{plain}
-\bibliographyPub{GuoPublications}
-
-\nociteWorking{embp, ratingpaper, powerlaw}
-\bibliographystyleWorking{plain}
-\bibliographyWorking{GuoPublications}
-
-\nociteWorkshop{textasdata2014}
-\bibliographystyleWorkshop{plain}
-\bibliographyWorkshop{GuoPublications}
-
-\clearpage
 
 \end{document}
 

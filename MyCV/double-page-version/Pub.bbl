@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{aistat2015}
+\textbf{Fangjian Guo}, Charles Blundell, Hanna Wallach, and Katherine~A.
+  Heller.
+\newblock The Bayesian Echo Chamber: Modeling influence in conversations.
+\newblock {\em AISTATS}, 2015 (to appear).
+
+\bibitem{physicaa}
+\textbf{Fangjian Guo}, Zimo Yang, and Tao Zhou.
+\newblock Predicting link directions via a recursive subgraph-based ranking.
+\newblock {\em Physica A: Statistical Mechanics and its Applications}, 392(16),
+  2013.
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{embp}
+\textbf{Fangjian Guo} and Henry~D. Pfister.
+\newblock An EM-BP algorithm for matrix completion.
+
+\bibitem{ratingpaper}
+\textbf{Fangjian Guo} and David~B. Dunson.
+\newblock Bayesian multiplicative calibration models for recommender systems.
+
+\bibitem{powerlaw}
+\textbf{Fangjian Guo}, Zimo Yang, Zhidan Zhao, and Tao Zhou.
+\newblock The relation between memory and power-law exponent.
+
+\end{thebibliography}

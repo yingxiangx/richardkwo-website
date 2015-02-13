@@ -4,8 +4,9 @@
 
 == Working Papers
 
+. *Fangjian Guo* and Henry Pfister. An EM-BP algorithm for matrix completion.
 . *Fangjian Guo*, Zimo Yang, Zhidan Zhao and Tao Zhou. [papers/PowerMemPaper.pdf The relation between memory and power-law exponent].
-. *Fangjian Guo* and David Dunson. Modeling and calibrating ratings across categories.
+. *Fangjian Guo* and David Dunson. Bayesian multiplicative calibration models for recommender systems.
 
 == Peer Reviewed
 

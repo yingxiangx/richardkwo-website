@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+\bibitem{Guo2015a}
+\textbf{Fangjian Guo}, Charles Blundell, Hanna Wallach and Katherine A.~Heller.
+\newblock The Bayesian Echo Chamber: modeling influence in conversations
+\newblock {\em AISTATS 2015 (accepted)}.
+
+\bibitem{Guo2015b}
+\textbf{Fangjian Guo} and Henry D.~Pfister.
+\newblock An EM-BP algorithm for matrix completion.
+\newblock {(in preparation)}.
+
+\bibitem{Guo2012d}
+\textbf{Fangjian Guo} and David B.~Dunson.
+\newblock Bayesian multiplicative calibration models for recommendation systems.
+\newblock {(in preparation)}.
+
+\bibitem{Guo2012c}
+\textbf{Fangjian Guo},  Zimo Yang, Zhidan Zhao and Tao Zhou.
+\newblock Memory constraints of power-law series.
+\newblock {(in preparation)}.
+
+\bibitem{Guo2013}
+\textbf{Fangjian Guo}, Zimo Yang, and Tao Zhou.
+\newblock Predicting link directions via a recursive subgraph-based ranking.
+\newblock {\em Physica A}, 392(16), 2013.
+
+\bibitem{Guo2012a}
+\textbf{Fangjian Guo}, Jiang Su, and Jian Gao.
+\newblock Finding conspirators in the network via machine learning.
+\newblock {\em The UMAP Journal}, 33(3), 2012. \textbf{(Outstanding Winner paper for MCM/ICM 2012)}
+\end{thebibliography}
